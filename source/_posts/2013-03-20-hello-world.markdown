@@ -6,4 +6,4 @@ comments: true
 categories: undefined
 ---
 
-Welcome to Octorpess!
+Welcome to Octopess!
