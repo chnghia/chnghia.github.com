@@ -4,7 +4,7 @@
   <title><![CDATA[chnghia's blog]]></title>
   <link href="http://chnghia.github.com/atom.xml" rel="self"/>
   <link href="http://chnghia.github.com/"/>
-  <updated>2013-03-21T00:19:19+07:00</updated>
+  <updated>2013-03-21T00:40:24+07:00</updated>
   <id>http://chnghia.github.com/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tại sao sử dụng Octopress?]]></title>
+    <link href="http://chnghia.github.com/blog/2013/03/21/tai-sao-su-dung-octopress/"/>
+    <updated>2013-03-21T00:21:00+07:00</updated>
+    <id>http://chnghia.github.com/blog/2013/03/21/tai-sao-su-dung-octopress</id>
+    <content type="html"><![CDATA[<p>Khi tạo blog mọi người thường sử dụng <a href="http://chnghia.wordpress.com">Wordpress</a> hoặc blogspot tuy nhiên các blog này thường phải sử dụng database để lưu các post, việc này tuy tiện lợi nhưng về mặt kỹ thuật nó sẽ tốn nhiều thời gian hơn để render một page, độ bảo mật không tốt vì có thể đánh cắp password &#8230;</p>
+
+<p>Đối với Octopress việc này được khắc phục vì nó dạng static blog, các post/page của blog được generate từ trước, không phải tốn thời gian đọc database, cũng như blog chỉ ở dạng static page, nên việc hack blog trở nên khó khăn hơn, khi việc upload thông qua Git hoặc rsync (sử dụng public/private key, không có tham gia của việc nhập password)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
