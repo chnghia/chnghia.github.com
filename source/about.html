@@ -2,12 +2,28 @@
 layout: default
 title: "About"
 footer: true
+date: 2013-03-21 21:49
 ---
 
 <div>
-<article role="article">
-  <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
-</article>
+  <article role="article">
+    <header>
+    <h1 class="entry-title">
+      {% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}
+      <a href="http://about.me/nghiachung"><img style="border:0px; zoom: 0.8; -moz-transform: scale(0.8);" src="http://o.aolcdn.com/aboutme/production136/images/assets/aboutme_116x32.png"/></a>
+    </h1>
+    </header>
+    <p>
+    Đang cập nhật
+    </p>
+    <footer>
+      <p class="meta">
+          {% if page.author %}{% include post/author.html %}{% endif %}
+          {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
+          {% if page.categories %}{% include post/categories.html %}{% endif %}
+      </p>
+    </footer>
+  </article>
 </div>
 {% unless page.sidebar == false %}
 <aside class="sidebar">
