@@ -31,6 +31,18 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
   
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38781731-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
 
 </head>
 
@@ -58,6 +70,9 @@
 <ul class="main-navigation">
   <li><a href="/">Blog</a></li>
   <li><a href="/iaas">IAAS</a></li>
+  <li><a href="/paas">PAAS</a></li>
+  <li><a href="/programming">Programming</a></li>
+  <li><a href="/tips">Tips</a></li>
   <li><a href="/blog/archives">Archives</a></li>
   <li><a href="/about.html">About</a></li>
 </ul>
@@ -94,6 +109,9 @@
 
 
 <div class="entry-content"><p>Khi tạo blog mọi người thường sử dụng <a href="http://chnghia.wordpress.com">Wordpress</a> hoặc blogspot tuy nhiên các blog này thường phải sử dụng database để lưu các post, việc này tuy tiện lợi nhưng về mặt kỹ thuật nó sẽ tốn nhiều thời gian hơn để render một page, độ bảo mật không tốt vì có thể đánh cắp password &#8230;</p>
+
+<!--more-->
+
 
 <p>Đối với Octopress việc này được khắc phục vì nó dạng static blog, các post/page của blog được generate từ trước, không phải tốn thời gian đọc database, cũng như blog chỉ ở dạng static page, nên việc hack blog trở nên khó khăn hơn, khi việc upload thông qua Git hoặc rsync (sử dụng public/private key, không có tham gia của việc nhập password)</p>
 </div>
@@ -142,6 +160,12 @@
   </footer>
 </article>
 
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
 </div>
 
 <aside class="sidebar">
@@ -178,6 +202,22 @@
 
 </footer>
   
+
+<script type="text/javascript">
+      var disqus_shortname = 'chnghiasblog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://chnghia.github.com/blog/2013/03/21/tai-sao-su-dung-octopress/';
+        var disqus_url = 'http://chnghia.github.com/blog/2013/03/21/tai-sao-su-dung-octopress/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 

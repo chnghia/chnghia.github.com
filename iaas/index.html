@@ -9,7 +9,7 @@
   <meta name="author" content="Nghia Chung">
 
   
-  <meta name="description" content=" IAAS Mar 20th, 2013 IAAS Mar 20th, 2013 Tweet Recent Posts Tại sao sử dụng Octopress? Hello World ">
+  <meta name="description" content="IAAS Mar 20th, 2013 Những nội dung này đối với mình cũng rất mới, nên bạn nào thích thì xin hãy chỉ giúp mình những thiếu xót. Cám ơn Tạo và cấu &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -31,6 +31,18 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
   
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38781731-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
 
 </head>
 
@@ -58,6 +70,9 @@
 <ul class="main-navigation">
   <li><a href="/">Blog</a></li>
   <li><a href="/iaas">IAAS</a></li>
+  <li><a href="/paas">PAAS</a></li>
+  <li><a href="/programming">Programming</a></li>
+  <li><a href="/tips">Tips</a></li>
   <li><a href="/blog/archives">Archives</a></li>
   <li><a href="/about.html">About</a></li>
 </ul>
@@ -85,7 +100,32 @@
 <time datetime="2013-03-20T23:36:00+07:00" pubdate data-updated="true">Mar 20<span>th</span>, 2013</time></p>
   </header>
   
-  <p>IAAS</p>
+  <p><em>Những nội dung này đối với mình cũng rất mới, nên bạn nào thích thì xin hãy chỉ giúp mình những thiếu xót. Cám ơn</em></p>
+
+<h2><a href="/iaas/cau-hinh-aws.html">Tạo và cấu hình hệ thống trên AWS</a></h2>
+
+<p>Mấy hôm nay làm dự án về AWS để xây dựng một hệ thống trên Cloud. Thấy có nhiều cái hay nên muốn chia sẽ</p>
+
+<ul>
+<li>Tạo tài khoản và sử dụng AWS cơ bản</li>
+<li>Xác định mô hình VPC và thiết lập</li>
+<li>Tạo bootstrap AMI với Centos 5.X</li>
+<li>Cài đặt NAT-LDAP-OpenSSH</li>
+<li>Cài đặt NFS</li>
+<li>Cài đặt service khác</li>
+</ul>
+
+
+<h2><a href="/iaas/moi-truong-develop.html">Môi trường develop cho cloud</a></h2>
+
+<p>Để làm việc với AWS hoặc phát triển một hệ thống, theo mình thì cũng rất cần thiết phải tạo một môi trường develop thật tốt, nên mình có mấy gợi ý mà theo mình là tốt các bạn có thể tham khảo</p>
+
+<ul>
+<li>Môi trường develop trên Windows 7</li>
+<li>Môi trường develop trên Ubunbu 12.10</li>
+<li>Môi trường develop trên MacOS</li>
+</ul>
+
 
   
     <footer>
@@ -105,6 +145,14 @@
 
 <time datetime="2013-03-20T23:36:00+07:00" pubdate data-updated="true">Mar 20<span>th</span>, 2013</time>
         
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/aws/'>AWS</a>, <a class='category' href='/blog/categories/centos/'>Centos</a>, <a class='category' href='/blog/categories/iaas/'>IAAS</a>, <a class='category' href='/blog/categories/openstack/'>OpenStack</a>, <a class='category' href='/blog/categories/ubuntu/'>Ubuntu</a>
+  
+</span>
+
+
       </p>
       
         <div class="sharing">
@@ -119,6 +167,12 @@
     </footer>
   
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -156,6 +210,22 @@
 
 </footer>
   
+
+<script type="text/javascript">
+      var disqus_shortname = 'chnghiasblog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://chnghia.github.com/iaas/index.html';
+        var disqus_url = 'http://chnghia.github.com/iaas/index.html';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 
