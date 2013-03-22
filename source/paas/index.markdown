@@ -1,8 +1,11 @@
 ---
 layout: page
-title: "paas"
+title: "PAAS"
 date: 2013-03-21 22:05
 comments: true
 sharing: true
 footer: true
+categories: [PAAS, Cloudfoundry, Cloudify, AppFog, Nodester]
 ---
+
+*Liên quan đến PAAS*

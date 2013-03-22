@@ -3,7 +3,7 @@ layout: post
 title: "Tại sao sử dụng Octopress?"
 date: 2013-03-21 00:21
 comments: true
-categories: 
+categories: [blog, octopress]
 ---
 
 Khi tạo blog mọi người thường sử dụng [Wordpress](http://chnghia.wordpress.com) hoặc blogspot tuy nhiên các blog này thường phải sử dụng database để lưu các post, việc này tuy tiện lợi nhưng về mặt kỹ thuật nó sẽ tốn nhiều thời gian hơn để render một page, độ bảo mật không tốt vì có thể đánh cắp password ...

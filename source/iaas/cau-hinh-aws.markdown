@@ -14,6 +14,6 @@ Mấy hôm nay làm dự án về AWS để xây dựng một hệ thống trên
 - Tạo tài khoản và sử dụng AWS cơ bản
 - Xác định mô hình VPC và thiết lập
 - Tạo bootstrap AMI với Centos 5.X
-- Cài đặt NAT-LDAP-OpenSSH
+- Cài đặt NAT-LDAP-OpenVPN-OpenSSH
 - Cài đặt NFS
 - Cài đặt service khác
