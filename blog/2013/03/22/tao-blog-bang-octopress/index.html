@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>PAAS - chnghia's blog</title>
+  <title>Tạo blog bằng Octopress - chnghia's blog</title>
   <meta name="author" content="Nghia Chung">
 
   
-  <meta name="description" content="PAAS Mar 21st, 2013 Liên quan đến PAAS Mar 21st, 2013 AppFog, Cloudfoundry, Cloudify, Nodester, PAAS Tweet Comments Please enable JavaScript to view &hellip;">
+  <meta name="description" content="Để tạo một static-blog sử dụng Octopress các bạn có thể làm theo các bước đơn giản sau: Các yêu cầu cài đặt
+Dùng git clone repo Octopress về máy &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://chnghia.github.com/paas">
+  <link rel="canonical" href="http://chnghia.github.com/blog/2013/03/22/tao-blog-bang-octopress">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="chnghia's blog" type="application/atom+xml">
@@ -81,32 +82,15 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">PAAS</h1>
-    <p class="meta">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-03-21T22:05:00+07:00" pubdate data-updated="true">Mar 21<span>st</span>, 2013</time></p>
-  </header>
-  
-  <p><em>Liên quan đến PAAS</em></p>
-
-  
-    <footer>
+    
+      <h1 class="entry-title">Tạo Blog Bằng Octopress</h1>
+    
+    
       <p class="meta">
         
-        
 
 
 
@@ -118,29 +102,127 @@
   
 
 
-<time datetime="2013-03-21T22:05:00+07:00" pubdate data-updated="true">Mar 21<span>st</span>, 2013</time>
+<time datetime="2013-03-22T00:10:00+07:00" pubdate data-updated="true">Mar 22<span>nd</span>, 2013</time>
         
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Để tạo một static-blog sử dụng Octopress các bạn có thể làm theo các bước đơn giản sau:</p>
+
+<ul>
+<li>Các yêu cầu cài đặt</li>
+<li>Dùng git clone repo Octopress về máy</li>
+<li>Thiết lập các giá trị</li>
+<li>Chạy thử trên máy tính</li>
+<li>Deploy blog</li>
+<li>Tạo post/page cho blog</li>
+<li>Sử dụng plugin</li>
+</ul>
+
+
+<!--more-->
+
+
+<h3>Các yêu cầu cài đặt</h3>
+
+<p>Dùng <code>cmd.exe</code> (Windows) hoặc <code>terminal</code> (Linux) để kiểm tra</p>
+
+<ol>
+<li>Git <code>git --version</code></li>
+<li>Ruby 1.9.3 <code>ruby -v</code></li>
+</ol>
+
+
+<p><img src="/images/post/2013-03-22-tao-blog-octopress-img1.png"></p>
+
+<h3>Dùng git clone repo Octopress về máy</h3>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>git clone git://github.com/imathis/octopress.git your-blog
+</span><span class='line'><span class="nb">cd </span>your-blog
+</span><span class='line'>
+</span><span class='line'><span class="c"># </span>
+</span><span class='line'>gem install bundler
+</span><span class='line'>
+</span><span class='line'><span class="c">#</span>
+</span><span class='line'>bundle install
+</span><span class='line'>
+</span><span class='line'><span class="c">#</span>
+</span><span class='line'>rake install
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Thiết lập các giá trị</h3>
+
+<h3>Chạy thử trên máy tính</h3>
+
+<h3>Deploy blog</h3>
+
+<h3>Tạo post/page cho blog</h3>
+
+<h3>Sử dụng plugin</h3>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Nghia Chung</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-22T00:10:00+07:00" pubdate data-updated="true">Mar 22<span>nd</span>, 2013</time>
+      
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/appfog/'>AppFog</a>, <a class='category' href='/blog/categories/cloudfoundry/'>Cloudfoundry</a>, <a class='category' href='/blog/categories/cloudify/'>Cloudify</a>, <a class='category' href='/blog/categories/nodester/'>Nodester</a>, <a class='category' href='/blog/categories/paas/'>PAAS</a>
+    <a class='category' href='/blog/categories/blog/'>blog</a>, <a class='category' href='/blog/categories/octopress/'>octopress</a>
   
 </span>
 
 
-      </p>
-      
-        <div class="sharing">
+    </p>
+    
+      <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://chnghia.github.com/paas/index.html" data-via="" data-counturl="http://chnghia.github.com/paas/index.html" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://chnghia.github.com/blog/2013/03/22/tao-blog-bang-octopress/" data-via="" data-counturl="http://chnghia.github.com/blog/2013/03/22/tao-blog-bang-octopress/" >Tweet</a>
   
   
   
 </div>
 
+    
+    <p class="meta">
       
-    </footer>
-  
+        <a class="basic-alignment left" href="/blog/2013/03/21/tai-sao-su-dung-octopress/" title="Previous Post: Tại sao sử dụng Octopress?">&laquo; Tại sao sử dụng Octopress?</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
   <section>
@@ -195,8 +277,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://chnghia.github.com/paas/index.html';
-        var disqus_url = 'http://chnghia.github.com/paas/index.html';
+        var disqus_identifier = 'http://chnghia.github.com/blog/2013/03/22/tao-blog-bang-octopress/';
+        var disqus_url = 'http://chnghia.github.com/blog/2013/03/22/tao-blog-bang-octopress/';
         var disqus_script = 'embed.js';
       
     (function () {
