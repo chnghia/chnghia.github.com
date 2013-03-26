@@ -5,7 +5,7 @@ date: 2013-03-26 00:59
 comments: true
 sharing: true
 footer: true
-categories: [codeigniter, jquery, javascript, php]
+categories: [opensource, codeigniter, jquery, javascript, php]
 ---
 
 ###Ý tưởng
