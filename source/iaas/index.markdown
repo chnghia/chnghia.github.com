@@ -17,3 +17,5 @@ categories: [IAAS, AWS, OpenStack, Centos, Ubuntu]
 ## [Môi trường develop cho cloud]({{ root_url }}/iaas/moi-truong-develop.html)
 
 {% render_partial iaas/moi-truong-develop.markdown %}
+
+## [Các mục theo category IAAS]({{ root_url }}/blog/categories/iaas)

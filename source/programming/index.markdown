@@ -8,9 +8,11 @@ footer: true
 categories: [Ruby, NodeJS, Python]
 ---
 
-Ngôn ngữ và kỹ thuật lập trình
+Ngôn ngữ lập trình
 
 - Ruby
 - NodeJS
+- C#
 - Python
-- Bash
+- Linux - Bash
+- Database - NoSQL
