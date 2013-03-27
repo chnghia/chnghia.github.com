@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | chnghia's blog]]></title>
   <link href="http://chnghia.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://chnghia.github.com/"/>
-  <updated>2013-03-22T14:06:15+07:00</updated>
+  <updated>2013-03-27T22:29:39+07:00</updated>
   <id>http://chnghia.github.com/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
@@ -44,8 +44,6 @@
 </ol>
 
 
-<p><img src="/images/post/2013-03-22-tao-blog-octopress-img1.png"></p>
-
 <h3>Dùng git clone repo Octopress về máy</h3>
 
 <p>``` bash
@@ -60,17 +58,42 @@ cd your-blog</p>
 bundle install</p>
 
 <p>#
-rake install</p>
-
-<p>```</p>
+bundle exec rake install
+```</p>
 
 <h3>Thiết lập các giá trị</h3>
 
 <h3>Chạy thử trên máy tính</h3>
 
+<p>``` bash
+bundle exec rake generate    # Generate post và page tại thư mục public
+bundle exec rake watch       # Kiểm tra thay đổi tại thư mục source/ và sass/ và liên tục generate blog
+bundle exec rake preview     # Giống trên và tạo webserver tại http://localhost:4000</p>
+
+<p>```</p>
+
 <h3>Deploy blog</h3>
 
 <h3>Tạo post/page cho blog</h3>
+
+<h4>Tạo Post</h4>
+
+<p><code>
+bundle exec rake new_post["title"]
+</code></p>
+
+<h4>Tạo Page</h4>
+
+<p>``` bash
+bundle exec rake new_page[page-title]</p>
+
+<h1>creates /source/page-title/index.markdown</h1>
+
+<p>bundle exec rake new_page[page-title/sub-page.html]</p>
+
+<h1>creates /source/page-title/sub-page.html</h1>
+
+<p>```</p>
 
 <h3>Sử dụng plugin</h3>
 ]]></content>

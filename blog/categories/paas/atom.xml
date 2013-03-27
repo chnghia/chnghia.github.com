@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: paas | chnghia's blog]]></title>
+  <link href="http://chnghia.github.com/blog/categories/paas/atom.xml" rel="self"/>
+  <link href="http://chnghia.github.com/"/>
+  <updated>2013-03-27T22:29:39+07:00</updated>
+  <id>http://chnghia.github.com/</id>
+  <author>
+    <name><![CDATA[Nghia Chung]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Definition as a Service]]></title>
+    <link href="http://chnghia.github.com/blog/2013/03/25/definition-as-a-service/"/>
+    <updated>2013-03-25T22:15:00+07:00</updated>
+    <id>http://chnghia.github.com/blog/2013/03/25/definition-as-a-service</id>
+    <content type="html"><![CDATA[<p>Tìm được một sơ đồ tương đối dễ hiểu về *aaS nên share
+<img src="/images/post/2013-03-25-definition-as-a-service.png"></p>
+
+<p><em>source http://www.katescomment.com/iaas-paas-saas-definition/</em></p>
+]]></content>
+  </entry>
+  
+</feed>

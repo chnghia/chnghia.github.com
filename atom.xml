@@ -4,7 +4,7 @@
   <title><![CDATA[chnghia's blog]]></title>
   <link href="http://chnghia.github.com/atom.xml" rel="self"/>
   <link href="http://chnghia.github.com/"/>
-  <updated>2013-03-22T14:06:15+07:00</updated>
+  <updated>2013-03-27T22:29:39+07:00</updated>
   <id>http://chnghia.github.com/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Definition as a Service]]></title>
+    <link href="http://chnghia.github.com/blog/2013/03/25/definition-as-a-service/"/>
+    <updated>2013-03-25T22:15:00+07:00</updated>
+    <id>http://chnghia.github.com/blog/2013/03/25/definition-as-a-service</id>
+    <content type="html"><![CDATA[<p>Tìm được một sơ đồ tương đối dễ hiểu về *aaS nên share
+<img src="http://chnghia.github.com/images/post/2013-03-25-definition-as-a-service.png"></p>
+
+<p><em>source http://www.katescomment.com/iaas-paas-saas-definition/</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tạo blog bằng Octopress]]></title>
@@ -44,8 +56,6 @@
 </ol>
 
 
-<p><img src="http://chnghia.github.com/images/post/2013-03-22-tao-blog-octopress-img1.png"></p>
-
 <h3>Dùng git clone repo Octopress về máy</h3>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -69,7 +79,7 @@
 </span><span class='line'>bundle install
 </span><span class='line'>
 </span><span class='line'><span class="c">#</span>
-</span><span class='line'>rake install
+</span><span class='line'>bundle <span class="nb">exec </span>rake install
 </span></code></pre></td></tr></table></div></figure>
 
 
@@ -77,9 +87,38 @@
 
 <h3>Chạy thử trên máy tính</h3>
 
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>bundle <span class="nb">exec </span>rake generate    <span class="c"># Generate post và page tại thư mục public</span>
+</span><span class='line'>bundle <span class="nb">exec </span>rake watch       <span class="c"># Kiểm tra thay đổi tại thư mục source/ và sass/ và liên tục generate blog</span>
+</span><span class='line'>bundle <span class="nb">exec </span>rake preview     <span class="c"># Giống trên và tạo webserver tại http://localhost:4000</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
 <h3>Deploy blog</h3>
 
 <h3>Tạo post/page cho blog</h3>
+
+<h4>Tạo Post</h4>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>bundle <span class="nb">exec </span>rake new_post<span class="o">[</span><span class="s2">&quot;title&quot;</span><span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h4>Tạo Page</h4>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>bundle <span class="nb">exec </span>rake new_page<span class="o">[</span>page-title<span class="o">]</span>
+</span><span class='line'><span class="c"># creates /source/page-title/index.markdown</span>
+</span><span class='line'>bundle <span class="nb">exec </span>rake new_page<span class="o">[</span>page-title/sub-page.html<span class="o">]</span>
+</span><span class='line'><span class="c"># creates /source/page-title/sub-page.html</span>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <h3>Sử dụng plugin</h3>
 ]]></content>

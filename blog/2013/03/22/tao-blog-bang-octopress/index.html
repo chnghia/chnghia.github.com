@@ -74,6 +74,7 @@ Dùng git clone repo Octopress về máy &hellip;">
   <li><a href="/paas">PAAS</a></li>
   <li><a href="/programming">Programming</a></li>
   <li><a href="/tips">Tips</a></li>
+  <li><a href="/projects">Projects</a></li>
   <li><a href="/blog/archives">Archives</a></li>
   <li><a href="/about.html">About</a></li>
 </ul>
@@ -86,7 +87,7 @@ Dùng git clone repo Octopress về máy &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Tạo Blog Bằng Octopress</h1>
+      <h1 class="entry-title">Tạo blog bằng Octopress</h1>
     
     
       <p class="meta">
@@ -135,8 +136,6 @@ Dùng git clone repo Octopress về máy &hellip;">
 </ol>
 
 
-<p><img src="/images/post/2013-03-22-tao-blog-octopress-img1.png"></p>
-
 <h3>Dùng git clone repo Octopress về máy</h3>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -160,7 +159,7 @@ Dùng git clone repo Octopress về máy &hellip;">
 </span><span class='line'>bundle install
 </span><span class='line'>
 </span><span class='line'><span class="c">#</span>
-</span><span class='line'>rake install
+</span><span class='line'>bundle <span class="nb">exec </span>rake install
 </span></code></pre></td></tr></table></div></figure>
 
 
@@ -168,9 +167,38 @@ Dùng git clone repo Octopress về máy &hellip;">
 
 <h3>Chạy thử trên máy tính</h3>
 
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>bundle <span class="nb">exec </span>rake generate    <span class="c"># Generate post và page tại thư mục public</span>
+</span><span class='line'>bundle <span class="nb">exec </span>rake watch       <span class="c"># Kiểm tra thay đổi tại thư mục source/ và sass/ và liên tục generate blog</span>
+</span><span class='line'>bundle <span class="nb">exec </span>rake preview     <span class="c"># Giống trên và tạo webserver tại http://localhost:4000</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
 <h3>Deploy blog</h3>
 
 <h3>Tạo post/page cho blog</h3>
+
+<h4>Tạo Post</h4>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>bundle <span class="nb">exec </span>rake new_post<span class="o">[</span><span class="s2">&quot;title&quot;</span><span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h4>Tạo Page</h4>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>bundle <span class="nb">exec </span>rake new_page<span class="o">[</span>page-title<span class="o">]</span>
+</span><span class='line'><span class="c"># creates /source/page-title/index.markdown</span>
+</span><span class='line'>bundle <span class="nb">exec </span>rake new_page<span class="o">[</span>page-title/sub-page.html<span class="o">]</span>
+</span><span class='line'><span class="c"># creates /source/page-title/sub-page.html</span>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <h3>Sử dụng plugin</h3>
 </div>
@@ -221,6 +249,8 @@ Dùng git clone repo Octopress về máy &hellip;">
         <a class="basic-alignment left" href="/blog/2013/03/21/tai-sao-su-dung-octopress/" title="Previous Post: Tại sao sử dụng Octopress?">&laquo; Tại sao sử dụng Octopress?</a>
       
       
+        <a class="basic-alignment right" href="/blog/2013/03/25/definition-as-a-service/" title="Next Post: Definition as a Service">Definition as a Service &raquo;</a>
+      
     </p>
   </footer>
 </article>
@@ -238,6 +268,10 @@ Dùng git clone repo Octopress về máy &hellip;">
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/03/25/definition-as-a-service/">Definition as a Service</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/03/22/tao-blog-bang-octopress/">Tạo blog bằng Octopress</a>

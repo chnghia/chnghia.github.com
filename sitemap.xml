@@ -10,7 +10,11 @@
     </url>
     <url>
         <loc>http://chnghia.github.com/blog/2013/03/22/tao-blog-bang-octopress/</loc>
-        <lastmod>2013-03-22T13:52:24+07:00</lastmod>
+        <lastmod>2013-03-26T21:58:48+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chnghia.github.com/blog/2013/03/25/definition-as-a-service/</loc>
+        <lastmod>2013-03-26T00:42:27+07:00</lastmod>
     </url>
     <url>
         <loc>http://chnghia.github.com/about.html</loc>
@@ -18,7 +22,7 @@
     </url>
     <url>
         <loc>http://chnghia.github.com/blog/archives/</loc>
-        <lastmod>2013-03-22T13:52:24+07:00</lastmod>
+        <lastmod>2013-03-26T21:58:48+07:00</lastmod>
     </url>
     <url>
         <loc>http://chnghia.github.com/iaas/cau-hinh-aws.html</loc>
@@ -26,7 +30,7 @@
     </url>
     <url>
         <loc>http://chnghia.github.com/iaas/</loc>
-        <lastmod>2013-03-21T22:30:30+07:00</lastmod>
+        <lastmod>2013-03-26T21:30:15+07:00</lastmod>
     </url>
     <url>
         <loc>http://chnghia.github.com/iaas/moi-truong-develop.html</loc>
@@ -34,7 +38,7 @@
     </url>
     <url>
         <loc>http://chnghia.github.com/</loc>
-        <lastmod>2013-03-22T13:52:24+07:00</lastmod>
+        <lastmod>2013-03-26T21:58:48+07:00</lastmod>
     </url>
     <url>
         <loc>http://chnghia.github.com/paas/</loc>
@@ -42,7 +46,31 @@
     </url>
     <url>
         <loc>http://chnghia.github.com/programming/</loc>
-        <lastmod>2013-03-22T00:06:23+07:00</lastmod>
+        <lastmod>2013-03-26T21:26:06+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chnghia.github.com/projects/ci-ext.html</loc>
+        <lastmod>2013-03-26T10:48:01+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chnghia.github.com/projects/dropbox-pos.html</loc>
+        <lastmod>2013-03-26T09:59:27+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chnghia.github.com/projects/gps-track.html</loc>
+        <lastmod>2013-03-26T09:59:33+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chnghia.github.com/projects/hrms2.html</loc>
+        <lastmod>2013-03-26T09:59:44+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chnghia.github.com/projects/</loc>
+        <lastmod>2013-03-26T13:46:15+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chnghia.github.com/projects/web-ts.html</loc>
+        <lastmod>2013-03-26T09:59:49+07:00</lastmod>
     </url>
     <url>
         <loc>http://chnghia.github.com/robots.txt</loc>
