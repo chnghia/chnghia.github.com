@@ -2,7 +2,7 @@
 layout: page
 title: "projects"
 date: 2013-03-22 15:27
-comments: true
+comments: false
 sharing: true
 footer: true
 ---
