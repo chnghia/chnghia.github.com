@@ -1,0 +1,11 @@
+---
+layout: post
+title: "wealthy?"
+date: 2013-03-30 22:32
+comments: true
+categories: [quote]
+---
+
+{% img /images/post/2013-03-30-wealthy.jpg 400%}
+
+*source http://kryeveper.tumblr.com/post/44507244599*
