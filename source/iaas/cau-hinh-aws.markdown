@@ -2,7 +2,7 @@
 layout: page
 title: "Tạo và cấu hình hệ thống trên AWS"
 date: 2013-03-21 21:18
-comments: true
+comments: false
 sharing: true
 footer: true
 categories: [Cloud, AWS]
