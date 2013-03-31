@@ -7,8 +7,9 @@ categories: [MacOS, Develop]
 ---
 
 ###Mục đích
-Nếu sử dụng MacOS thì việc thiết lập môi trường đơn giản hơn vì sử dụng Homebrew, các phần mềm khác thì có thể tìm trong AppStore, hoặc [AppKed](http://appdl.net/)
+Nếu sử dụng MacOS thì việc thiết lập môi trường đơn giản hơn vì sử dụng [Homebrew](http://mxcl.github.com/homebrew/), các phần mềm khác thì có thể tìm trong AppStore, hoặc [AppKed](http://appdl.net/)
 <!--more-->
+{% img /images/post/2013-03-31-macos-desktop.png 600%}
 
 ###Cài đặt
 - Cài đặt phần mềm dùng chung: Dropbox, Evernote, Editor - Sublime Text (*) ...

@@ -7,10 +7,10 @@ categories: [Windows, Develop]
 ---
 
 ###Mục đích
-Đây là gợi ý của mình khi thiết lập một môi trường develop hướng đến lập trình Ruby, NodeJS, hoặc Web nói chung.
+Đây là những thiết lập của mình cho một môi trường develop hướng đến lập trình Ruby, NodeJS, hoặc Web nói chung.
 Ngoài ra, việc cài đặt còn phụ thuộc vào thói quen sử dụng máy tính. Nên tuỳ vào nhu cầu thì các bạn chỉ cần cài đặt phần các bạn sử dụng mà thôi.
 <!--more-->
-{% img /images/post/2013-03-29-windows-desktop.png 500%}
+{% img /images/post/2013-03-29-windows-desktop.png 600%}
 
 ###Cài đặt
 - Cài đặt phần mềm dùng chung: Dropbox, Evernote, Editor - Sublime Text (*), Programmer's Notepad ...
