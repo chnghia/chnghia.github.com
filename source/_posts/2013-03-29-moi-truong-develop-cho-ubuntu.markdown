@@ -3,7 +3,7 @@ layout: post
 title: "Môi trường develop cho Ubuntu"
 date: 2013-03-29 22:30
 comments: true
-categories: [UbuntuU, Develop]
+categories: [Ubuntu, Develop]
 ---
 
 ###Mục đích

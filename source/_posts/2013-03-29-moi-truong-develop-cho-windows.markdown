@@ -71,5 +71,21 @@ Mình dùng cái này như một test environment và một *nix terminal
 Sau khi cài đặt xong thì cần phải tinh chỉnh một số thứ như thiết lập PATH, thiết lập Bash Shell cho Console2(ConEmu),
 thêm alias, thay đổi bash prompt
 
+**Console2 - ConEmu**
+
+Với Console2, tại `settings > tabs` thiết lập Bash shell của msysgit bằng `C:\Windows\SysWOW64\cmd.exe /c ""C:\Program Files (x86)\Git\bin\sh.exe" --login -i"` tại mục `shell`, `name` thì đặt là `Bash`, và chuyển Tab này lên đầu thì khi mở Console2 nó sẽ vào Bash shell.
+
+Với ConEmu, `settings > startup > tasks` thiết lập Bash shell của msysgit giống trên, để khi khởi động thì vào Bash shell thì chọn `Specified named task` là `Bash` theo tên task đã đặt.
+
+{% blockquote %}
+Việc sử dụng Bash shell một *nix terminal trên Windows sẽ giúp mình sử dụng được `ssh-client`, `scp`, `vim` và một cấu trúc thư mục tương thích với Linux
+{% endblockquote %}
+
+**Git - Github - Bitbucket**
+
+**Alias**
+
+**Sublime Text**
+
 ###Kiểm tra lại
 
