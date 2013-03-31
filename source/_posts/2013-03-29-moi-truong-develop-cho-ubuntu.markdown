@@ -17,4 +17,4 @@ Mình thường sử dụng Ubuntu như là một môi trường *inx trên Wind
 - Cài đặt NodeJS
 - Thiết lập môi trường
 
-###Chi tiết cài đặt
+###Chi tiết

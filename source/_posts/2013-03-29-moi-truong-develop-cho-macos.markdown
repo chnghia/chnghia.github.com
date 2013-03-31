@@ -7,6 +7,7 @@ categories: [MacOS, Develop]
 ---
 
 ###Mục đích
+Nếu sử dụng MacOS thì việc thiết lập môi trường đơn giản hơn vì sử dụng Homebrew, các phần mềm khác thì có thể tìm trong AppStore, hoặc [AppKed](http://appdl.net/)
 <!--more-->
 
 ###Cài đặt
@@ -18,4 +19,8 @@ categories: [MacOS, Develop]
 - Cài đặt Python
 - Thiết lập terminal, hoặc cài đặt iTerm
 
-###Chi tiết cài đặt
+###Chi tiết
+
+####Các thiết lập môi trường 
+
+####Kiểm tra lại

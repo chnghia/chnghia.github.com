@@ -71,6 +71,5 @@ Mình dùng cái này như một test environment và một *nix terminal
 Sau khi cài đặt xong thì cần phải tinh chỉnh một số thứ như thiết lập PATH, thiết lập Bash Shell cho Console2(ConEmu),
 thêm alias, thay đổi bash prompt
 
-###Kiểm tra
+###Kiểm tra lại
 
-###Lời kết
