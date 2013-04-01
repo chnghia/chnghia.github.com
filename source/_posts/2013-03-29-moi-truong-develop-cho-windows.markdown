@@ -120,3 +120,22 @@ $ vboxmanage-modifyvm          # vboxmanage modifyvm
 
 ###Kiểm tra lại
 
+Sau khi cài đặt xong mọi thứ bạn kiểm tra lại bằng cách mở `Console2` `ConEmu`, từ `Bash shell` thực hiện
+
+``` bash
+$ git --version
+
+$ ssh -v
+
+$ ruby -v
+
+$ gem -v
+
+$ node -v
+
+$ npm -v
+
+$ subl
+```
+{% img /images/post/2013-04-01-windows-desktop-check.png 600%}
+
