@@ -4,7 +4,7 @@
   <title><![CDATA[chnghia's blog]]></title>
   <link href="http://chnghia.github.com/atom.xml" rel="self"/>
   <link href="http://chnghia.github.com/"/>
-  <updated>2013-04-01T13:12:12+07:00</updated>
+  <updated>2013-04-01T22:33:35+07:00</updated>
   <id>http://chnghia.github.com/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
@@ -21,70 +21,6 @@
     <content type="html"><![CDATA[<p><img src="http://chnghia.github.com/images/post/2013-03-30-wealthy.jpg" width="400"></p>
 
 <p><em>source http://kryeveper.tumblr.com/post/44507244599</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Môi trường develop cho Ubuntu]]></title>
-    <link href="http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-ubuntu/"/>
-    <updated>2013-03-29T22:30:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-ubuntu</id>
-    <content type="html"><![CDATA[<h3>Mục đích</h3>
-
-<p>Mình thường sử dụng Ubuntu như là một môi trường *inx trên Windows, nên mình không cài Editor nào mà chỉ sử dụng Editor trên Windows.</p>
-
-<!--more-->
-
-
-<p><img src="http://chnghia.github.com/images/post/2013-03-31-ubuntu-desktop.png" width="600"></p>
-
-<h3>Cài đặt</h3>
-
-<ul>
-<li>Cài đặt Git</li>
-<li>Cài đặt Ruby</li>
-<li>Cài đặt NodeJS</li>
-<li>Cài đặt cifs, để nhận file share từ Windows</li>
-<li>Thiết lập môi trường</li>
-</ul>
-
-
-<h3>Chi tiết</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Môi trường develop cho MacOS]]></title>
-    <link href="http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-macos/"/>
-    <updated>2013-03-29T21:30:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-macos</id>
-    <content type="html"><![CDATA[<h3>Mục đích</h3>
-
-<p>Nếu sử dụng MacOS thì việc thiết lập môi trường đơn giản hơn vì sử dụng <a href="http://mxcl.github.com/homebrew/">Homebrew</a>, các phần mềm khác thì có thể tìm trong AppStore, hoặc <a href="http://appdl.net/">AppKed</a></p>
-
-<!--more-->
-
-
-<p><img src="http://chnghia.github.com/images/post/2013-03-31-macos-desktop.png" width="600"></p>
-
-<h3>Cài đặt</h3>
-
-<ul>
-<li>Cài đặt phần mềm dùng chung: Dropbox, Evernote, Editor - Sublime Text (*) &#8230;</li>
-<li>Cài đặt Homebrew</li>
-<li>Cài đặt Git</li>
-<li>Cài đặt Ruby</li>
-<li>Cài đặt NodeJS</li>
-<li>Cài đặt Python</li>
-<li>Thiết lập terminal, hoặc cài đặt iTerm</li>
-</ul>
-
-
-<h3>Chi tiết</h3>
-
-<h4>Các thiết lập môi trường</h4>
-
-<h4>Kiểm tra lại</h4>
 ]]></content>
   </entry>
   
@@ -260,6 +196,39 @@ thêm alias, thay đổi bash prompt</p>
 
 
 <h3>Kiểm tra lại</h3>
+
+<p>Sau khi cài đặt xong mọi thứ bạn kiểm tra lại bằng cách mở <code>Console2</code> <code>ConEmu</code>, từ <code>Bash shell</code> thực hiện</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git --version
+</span><span class='line'>
+</span><span class='line'><span class="nv">$ </span>ssh -v
+</span><span class='line'>
+</span><span class='line'><span class="nv">$ </span>ruby -v
+</span><span class='line'>
+</span><span class='line'><span class="nv">$ </span>gem -v
+</span><span class='line'>
+</span><span class='line'><span class="nv">$ </span>node -v
+</span><span class='line'>
+</span><span class='line'><span class="nv">$ </span>npm -v
+</span><span class='line'>
+</span><span class='line'><span class="nv">$ </span>subl
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><img src="http://chnghia.github.com/images/post/2013-04-01-windows-desktop-check.png" width="600"></p>
 ]]></content>
   </entry>
   
