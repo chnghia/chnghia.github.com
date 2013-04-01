@@ -8,7 +8,7 @@ footer: true
 categories: [IAAS, AWS, OpenStack, Centos, Ubuntu]
 ---
 
-*Những nội dung này đối với mình cũng rất mới, nên bạn nào thích thì xin hãy chỉ giúp mình những thiếu xót. Cám ơn*
+*Những nội dung này đối với mình cũng rất mới, nên bạn nào thích thì xin hãy chỉ giúp mình những chỗ sai. Cám ơn*
 
 ## [Tạo và cấu hình hệ thống trên AWS]({{ root_url }}/iaas/cau-hinh-aws.html)
 

@@ -12,10 +12,10 @@ Mình thường sử dụng Ubuntu như là một môi trường *inx trên Wind
 {% img /images/post/2013-03-31-ubuntu-desktop.png 600%}
 
 ###Cài đặt
-- Cài đặt cifs, để nhận file share từ Windows
 - Cài đặt Git
 - Cài đặt Ruby
 - Cài đặt NodeJS
+- Cài đặt cifs, để nhận file share từ Windows
 - Thiết lập môi trường
 
 ###Chi tiết

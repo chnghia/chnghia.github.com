@@ -54,6 +54,7 @@ Mình dùng cái này như một test environment và một *nix terminal
 
 ####Git
 - [msysGit](http://msysgit.github.com/)
+- [tortoisegit](https://code.google.com/p/tortoisegit/)
 - [github](http://github.com)
 - [bitbucket](http://bitbucket.org)
 
@@ -71,6 +72,10 @@ Mình dùng cái này như một test environment và một *nix terminal
 Sau khi cài đặt xong thì cần phải tinh chỉnh một số thứ như thiết lập PATH, thiết lập Bash Shell cho Console2(ConEmu),
 thêm alias, thay đổi bash prompt
 
+{% blockquote %}
+Khi thực hiện cài đặt Ruby, NodeJS, Python ... nhớ lưu ý là nên thiết lập PATH để có thể gọi được từ Bash shell
+{% endblockquote %}
+
 **Console2 - ConEmu**
 
 Với Console2, tại `settings > tabs` thiết lập Bash shell của msysgit bằng `C:\Windows\SysWOW64\cmd.exe /c ""C:\Program Files (x86)\Git\bin\sh.exe" --login -i"` tại mục `shell`, `name` thì đặt là `Bash`, và chuyển Tab này lên đầu thì khi mở Console2 nó sẽ vào Bash shell.
@@ -83,9 +88,35 @@ Việc sử dụng Bash shell một *nix terminal trên Windows sẽ giúp mình
 
 **Git - Github - Bitbucket**
 
-**Alias**
+Với github, sử dụng `ssh-keygen` để tạo ssh key, sau đó sử dụng login vào github vào `settings > ssh keys` chọn `add SSH key`, bạn copy-paste đoạn public key (bằng cách `cat ~/.ssh/id_rsa.pub`) vào phần key. Giờ bạn có thể sử dụng thực hiện update repo từ shell.
+
+Với bitbucket, cũng tương tự như trên, trong trường hợp bạn có nhiều tại khoản thì có thể tạo nhiều ssh key để sử dụng.
 
 **Sublime Text**
+
+Sau khi thiết lập PATH cho Sublime, thì tạo thêm 1 file trên cùng thư mục tên `subl` với nội dung
+``` bash
+#!/bin/sh
+start /max sublime_text $1 $2 $3
+```
+
+Từ đây, có thể gọi SublimeText từ Bash shell bằng cách 
+``` bash
+
+$ subl                         # Chỉ gọi Sublime
+$ subl /path/to/project        # Để gọi Sublime với project là folder vừa gọi
+```
+
+**Alias**
+
+Các command thường sử dụng thì nên tạo một folder có thiết lập PATH, làm vậy thì có thể thay thế đơn giản cho bash completion
+
+``` bash
+$ vboxmanage-list              # Giống như gọi vboxmanage list vms
+$ vboxmanage-list-running      # vboxmanage list runningvms
+$ vboxmanage-controlvm         # vboxmanage controlvm
+$ vboxmanage-modifyvm          # vboxmanage modifyvm
+```
 
 ###Kiểm tra lại
 
