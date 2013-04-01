@@ -12,7 +12,14 @@ categories: [IAAS, AWS, OpenStack, Centos, Ubuntu]
 
 ## [Tạo và cấu hình hệ thống trên AWS]({{ root_url }}/iaas/cau-hinh-aws.html)
 
-{% render_partial iaas/cau-hinh-aws.markdown %}
+Mấy hôm nay làm dự án về AWS để xây dựng một hệ thống trên Cloud. Thấy có nhiều cái hay nên muốn chia sẽ
+
+- Tạo tài khoản và sử dụng AWS cơ bản
+- Xác định mô hình VPC và thiết lập
+- Tạo bootstrap AMI với Centos 5.X
+- Cài đặt NAT-LDAP-OpenVPN-OpenSSH
+- Cài đặt NFS
+- Cài đặt service khác
 
 ## [Môi trường develop cho cloud]({{ root_url }}/iaas/moi-truong-develop.html)
 

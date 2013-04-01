@@ -5,8 +5,7 @@ date: 2013-03-21 21:18
 comments: false
 sharing: true
 footer: true
-categories: [Cloud, AWS]
-
+categories: [Cloud, AWS, NAT, LDAP, OpenVPN, OpenSSH, NFS]
 ---
 
 Mấy hôm nay làm dự án về AWS để xây dựng một hệ thống trên Cloud. Thấy có nhiều cái hay nên muốn chia sẽ
