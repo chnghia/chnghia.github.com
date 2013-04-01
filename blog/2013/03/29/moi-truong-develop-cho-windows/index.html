@@ -1,0 +1,426 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Môi trường develop cho Windows - chnghia's blog</title>
+  <meta name="author" content="Nghia Chung">
+
+  
+  <meta name="description" content="Mục đích Đây là những thiết lập của mình cho một môi trường develop hướng đến lập trình Ruby, NodeJS, hoặc Web nói chung.
+Ngoài ra, việc cài đặt còn &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-windows">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="chnghia's blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38781731-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">chnghia's blog</a></h1>
+  
+    <h2>PAAS, CloudFoundry, Ruby</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:chnghia.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/iaas">IAAS</a></li>
+  <li><a href="/paas">PAAS</a></li>
+  <li><a href="/programming">Programming</a></li>
+  <li><a href="/tips">Tips</a></li>
+  <li><a href="/projects">Projects</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about.html">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Môi trường develop cho Windows</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-29T20:30:00+07:00" pubdate data-updated="true">Mar 29<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h3>Mục đích</h3>
+
+<p>Đây là những thiết lập của mình cho một môi trường develop hướng đến lập trình Ruby, NodeJS, hoặc Web nói chung.
+Ngoài ra, việc cài đặt còn phụ thuộc vào thói quen sử dụng máy tính. Nên tuỳ vào nhu cầu thì các bạn chỉ cần cài đặt phần các bạn sử dụng mà thôi.</p>
+
+<!--more-->
+
+
+<p><img src="/images/post/2013-03-29-windows-desktop.png" width="600"></p>
+
+<h3>Cài đặt</h3>
+
+<ul>
+<li>Cài đặt phần mềm dùng chung: Dropbox, Evernote, Editor - Sublime Text (*), Programmer&#8217;s Notepad &#8230;</li>
+<li>Cài đặt Git</li>
+<li>Cài đặt Ruby</li>
+<li>Cài đặt NodeJS</li>
+<li>Cài đặt Python</li>
+<li>Các thiết lập môi trường</li>
+</ul>
+
+
+<h3>Chi tiết</h3>
+
+<h4>Phần mềm dùng chung</h4>
+
+<ul>
+<li><a href="http://db.tt/59oLmVtJ">Dropbox</a></li>
+</ul>
+
+
+<p>Có nhiều cloud storage nhưng vẫn thích cái này nhất, cái này rất hay nếu tận dụng nó để làm repositories cho 1 team nhỏ.
+Ngoài ra, cũng có thể sử dụng làm một static-blog bằng <a href="http://calepin.co/">Calepin.co</a></p>
+
+<ul>
+<li><a href="https://www.evernote.com">Evernote</a></li>
+</ul>
+
+
+<p>Dùng để ghi chú, mình đã không sử dụng OneNote nữa bởi cái này, hỗ trợ đa nền tảng, tuy chức năng không tốt bằng OneNote.</p>
+
+<ul>
+<li><a href="http://www.sublimetext.com/">Sublime Text 2</a> (purchase)</li>
+</ul>
+
+
+<p>Đây là editor gần như tốt nhất hiện tại, hỗ trợ nhiều thứ bằng plugins - Package Control, ngoài ra mình thích nhất cái folders của nó.</p>
+
+<ul>
+<li><a href="http://www.pnotepad.org/">Programmer Notepad</a></li>
+</ul>
+
+
+<p>Đây là editor khá tốt, mình không thích Notepad++ vì nó xấu hơn cái editor này :)</p>
+
+<ul>
+<li><a href="http://sourceforge.net/projects/console/">Console2</a></li>
+</ul>
+
+
+<p>Đây là emulator support multi-tab và một số thứ khác</p>
+
+<ul>
+<li><a href="https://code.google.com/p/conemu-maximus5/">ConEmu</a></li>
+</ul>
+
+
+<p>Emulator này thay thế rất tốt Console2 ở trên, nhưng mình vẫn xài cả hai :)</p>
+
+<ul>
+<li><a href="https://www.virtualbox.org/">VirtualBox</a></li>
+</ul>
+
+
+<p>Mình dùng cái này như một test environment và một *nix terminal</p>
+
+<h4>Git</h4>
+
+<ul>
+<li><a href="http://msysgit.github.com/">msysGit</a></li>
+<li><a href="https://code.google.com/p/tortoisegit/">tortoisegit</a></li>
+<li><a href="http://github.com">github</a></li>
+<li><a href="http://bitbucket.org">bitbucket</a></li>
+</ul>
+
+
+<h4>Ruby</h4>
+
+<ul>
+<li><a href="http://rubyinstaller.org/">RubyInstaller</a></li>
+<li><a href="http://railsinstaller.org/">RailsInstaller</a></li>
+</ul>
+
+
+<h4>NodeJS</h4>
+
+<ul>
+<li><a href="http://nodejs.org/">NodeJS</a></li>
+</ul>
+
+
+<h4>Python</h4>
+
+<ul>
+<li><a href="http://www.python.org/">Python</a></li>
+</ul>
+
+
+<h4>Các thiết lập môi trường</h4>
+
+<p>Sau khi cài đặt xong thì cần phải tinh chỉnh một số thứ như thiết lập PATH, thiết lập Bash Shell cho Console2(ConEmu),
+thêm alias, thay đổi bash prompt</p>
+
+<blockquote><p>Khi thực hiện cài đặt Ruby, NodeJS, Python &#8230; nhớ lưu ý là nên thiết lập PATH để có thể gọi được từ Bash shell</p></blockquote>
+
+
+<p><strong>Console2 - ConEmu</strong></p>
+
+<p>Với Console2, tại <code>settings &gt; tabs</code> thiết lập Bash shell của msysgit bằng <code>C:\Windows\SysWOW64\cmd.exe /c ""C:\Program Files (x86)\Git\bin\sh.exe" --login -i"</code> tại mục <code>shell</code>, <code>name</code> thì đặt là <code>Bash</code>, và chuyển Tab này lên đầu thì khi mở Console2 nó sẽ vào Bash shell.</p>
+
+<p>Với ConEmu, <code>settings &gt; startup &gt; tasks</code> thiết lập Bash shell của msysgit giống trên, để khi khởi động thì vào Bash shell thì chọn <code>Specified named task</code> là <code>Bash</code> theo tên task đã đặt.</p>
+
+<blockquote><p>Việc sử dụng Bash shell một *nix terminal trên Windows sẽ giúp mình sử dụng được `ssh-client`, `scp`, `vim` và một cấu trúc thư mục tương thích với Linux</p></blockquote>
+
+
+<p><strong>Git - Github - Bitbucket</strong></p>
+
+<p>Với github, sử dụng <code>ssh-keygen</code> để tạo ssh key, sau đó sử dụng login vào github vào <code>settings &gt; ssh keys</code> chọn <code>add SSH key</code>, bạn copy-paste đoạn public key (bằng cách <code>cat ~/.ssh/id_rsa.pub</code>) vào phần key. Giờ bạn có thể sử dụng thực hiện update repo từ shell.</p>
+
+<p>Với bitbucket, cũng tương tự như trên, trong trường hợp bạn có nhiều tại khoản thì có thể tạo nhiều ssh key để sử dụng.</p>
+
+<p><strong>Sublime Text</strong></p>
+
+<p>Sau khi thiết lập PATH cho Sublime, thì tạo thêm 1 file trên cùng thư mục tên <code>subl</code> với nội dung</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/sh</span>
+</span><span class='line'>start /max sublime_text <span class="nv">$1</span> <span class="nv">$2</span> <span class="nv">$3</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Từ đây, có thể gọi SublimeText từ Bash shell bằng cách</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>subl                         <span class="c"># Chỉ gọi Sublime</span>
+</span><span class='line'><span class="nv">$ </span>subl /path/to/project        <span class="c"># Để gọi Sublime với project là folder vừa gọi</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong>Alias</strong></p>
+
+<p>Các command thường sử dụng thì nên tạo một folder có thiết lập PATH, làm vậy thì có thể thay thế đơn giản cho bash completion</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>vboxmanage-list              <span class="c"># Giống như gọi vboxmanage list vms</span>
+</span><span class='line'><span class="nv">$ </span>vboxmanage-list-running      <span class="c"># vboxmanage list runningvms</span>
+</span><span class='line'><span class="nv">$ </span>vboxmanage-controlvm         <span class="c"># vboxmanage controlvm</span>
+</span><span class='line'><span class="nv">$ </span>vboxmanage-modifyvm          <span class="c"># vboxmanage modifyvm</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Kiểm tra lại</h3>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Nghia Chung</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-29T20:30:00+07:00" pubdate data-updated="true">Mar 29<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/develop/'>Develop</a>, <a class='category' href='/blog/categories/windows/'>Windows</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-windows/" data-via="" data-counturl="http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-windows/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/03/25/definition-as-a-service/" title="Previous Post: Definition as a Service">&laquo; Definition as a Service</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/03/29/moi-truong-develop-cho-macos/" title="Next Post: Môi trường develop cho MacOS">Môi trường develop cho MacOS &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/03/30/wealthy/">wealthy?</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/29/moi-truong-develop-cho-ubuntu/">Môi trường develop cho Ubuntu</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/29/moi-truong-develop-cho-macos/">Môi trường develop cho MacOS</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/29/moi-truong-develop-cho-windows/">Môi trường develop cho Windows</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/25/definition-as-a-service/">Definition as a Service</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Nghia Chung -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'chnghiasblog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-windows/';
+        var disqus_url = 'http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-windows/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

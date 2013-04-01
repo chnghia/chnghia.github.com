@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Develop | chnghia's blog]]></title>
+  <link href="http://chnghia.github.com/blog/categories/develop/atom.xml" rel="self"/>
+  <link href="http://chnghia.github.com/"/>
+  <updated>2013-04-01T13:12:12+07:00</updated>
+  <id>http://chnghia.github.com/</id>
+  <author>
+    <name><![CDATA[Nghia Chung]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Môi trường develop cho Ubuntu]]></title>
+    <link href="http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-ubuntu/"/>
+    <updated>2013-03-29T22:30:00+07:00</updated>
+    <id>http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-ubuntu</id>
+    <content type="html"><![CDATA[<h3>Mục đích</h3>
+
+<p>Mình thường sử dụng Ubuntu như là một môi trường *inx trên Windows, nên mình không cài Editor nào mà chỉ sử dụng Editor trên Windows.</p>
+
+<!--more-->
+
+
+<p><img src="/images/post/2013-03-31-ubuntu-desktop.png" width="600"></p>
+
+<h3>Cài đặt</h3>
+
+<ul>
+<li>Cài đặt Git</li>
+<li>Cài đặt Ruby</li>
+<li>Cài đặt NodeJS</li>
+<li>Cài đặt cifs, để nhận file share từ Windows</li>
+<li>Thiết lập môi trường</li>
+</ul>
+
+
+<h3>Chi tiết</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Môi trường develop cho MacOS]]></title>
+    <link href="http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-macos/"/>
+    <updated>2013-03-29T21:30:00+07:00</updated>
+    <id>http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-macos</id>
+    <content type="html"><![CDATA[<h3>Mục đích</h3>
+
+<p>Nếu sử dụng MacOS thì việc thiết lập môi trường đơn giản hơn vì sử dụng <a href="http://mxcl.github.com/homebrew/">Homebrew</a>, các phần mềm khác thì có thể tìm trong AppStore, hoặc <a href="http://appdl.net/">AppKed</a></p>
+
+<!--more-->
+
+
+<p><img src="/images/post/2013-03-31-macos-desktop.png" width="600"></p>
+
+<h3>Cài đặt</h3>
+
+<ul>
+<li>Cài đặt phần mềm dùng chung: Dropbox, Evernote, Editor - Sublime Text (*) ...</li>
+<li>Cài đặt Homebrew</li>
+<li>Cài đặt Git</li>
+<li>Cài đặt Ruby</li>
+<li>Cài đặt NodeJS</li>
+<li>Cài đặt Python</li>
+<li>Thiết lập terminal, hoặc cài đặt iTerm</li>
+</ul>
+
+
+<h3>Chi tiết</h3>
+
+<h4>Các thiết lập môi trường</h4>
+
+<h4>Kiểm tra lại</h4>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Môi trường develop cho Windows]]></title>
+    <link href="http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-windows/"/>
+    <updated>2013-03-29T20:30:00+07:00</updated>
+    <id>http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-windows</id>
+    <content type="html"><![CDATA[<h3>Mục đích</h3>
+
+<p>Đây là những thiết lập của mình cho một môi trường develop hướng đến lập trình Ruby, NodeJS, hoặc Web nói chung.
+Ngoài ra, việc cài đặt còn phụ thuộc vào thói quen sử dụng máy tính. Nên tuỳ vào nhu cầu thì các bạn chỉ cần cài đặt phần các bạn sử dụng mà thôi.</p>
+
+<!--more-->
+
+
+<p><img src="/images/post/2013-03-29-windows-desktop.png" width="600"></p>
+
+<h3>Cài đặt</h3>
+
+<ul>
+<li>Cài đặt phần mềm dùng chung: Dropbox, Evernote, Editor - Sublime Text (*), Programmer's Notepad ...</li>
+<li>Cài đặt Git</li>
+<li>Cài đặt Ruby</li>
+<li>Cài đặt NodeJS</li>
+<li>Cài đặt Python</li>
+<li>Các thiết lập môi trường</li>
+</ul>
+
+
+<h3>Chi tiết</h3>
+
+<h4>Phần mềm dùng chung</h4>
+
+<ul>
+<li><a href="http://db.tt/59oLmVtJ">Dropbox</a></li>
+</ul>
+
+
+<p>Có nhiều cloud storage nhưng vẫn thích cái này nhất, cái này rất hay nếu tận dụng nó để làm repositories cho 1 team nhỏ.
+Ngoài ra, cũng có thể sử dụng làm một static-blog bằng <a href="http://calepin.co/">Calepin.co</a></p>
+
+<ul>
+<li><a href="https://www.evernote.com">Evernote</a></li>
+</ul>
+
+
+<p>Dùng để ghi chú, mình đã không sử dụng OneNote nữa bởi cái này, hỗ trợ đa nền tảng, tuy chức năng không tốt bằng OneNote.</p>
+
+<ul>
+<li><a href="http://www.sublimetext.com/">Sublime Text 2</a> (purchase)</li>
+</ul>
+
+
+<p>Đây là editor gần như tốt nhất hiện tại, hỗ trợ nhiều thứ bằng plugins - Package Control, ngoài ra mình thích nhất cái folders của nó.</p>
+
+<ul>
+<li><a href="http://www.pnotepad.org/">Programmer Notepad</a></li>
+</ul>
+
+
+<p>Đây là editor khá tốt, mình không thích Notepad++ vì nó xấu hơn cái editor này :)</p>
+
+<ul>
+<li><a href="http://sourceforge.net/projects/console/">Console2</a></li>
+</ul>
+
+
+<p>Đây là emulator support multi-tab và một số thứ khác</p>
+
+<ul>
+<li><a href="https://code.google.com/p/conemu-maximus5/">ConEmu</a></li>
+</ul>
+
+
+<p>Emulator này thay thế rất tốt Console2 ở trên, nhưng mình vẫn xài cả hai :)</p>
+
+<ul>
+<li><a href="https://www.virtualbox.org/">VirtualBox</a></li>
+</ul>
+
+
+<p>Mình dùng cái này như một test environment và một *nix terminal</p>
+
+<h4>Git</h4>
+
+<ul>
+<li><a href="http://msysgit.github.com/">msysGit</a></li>
+<li><a href="https://code.google.com/p/tortoisegit/">tortoisegit</a></li>
+<li><a href="http://github.com">github</a></li>
+<li><a href="http://bitbucket.org">bitbucket</a></li>
+</ul>
+
+
+<h4>Ruby</h4>
+
+<ul>
+<li><a href="http://rubyinstaller.org/">RubyInstaller</a></li>
+<li><a href="http://railsinstaller.org/">RailsInstaller</a></li>
+</ul>
+
+
+<h4>NodeJS</h4>
+
+<ul>
+<li><a href="http://nodejs.org/">NodeJS</a></li>
+</ul>
+
+
+<h4>Python</h4>
+
+<ul>
+<li><a href="http://www.python.org/">Python</a></li>
+</ul>
+
+
+<h4>Các thiết lập môi trường</h4>
+
+<p>Sau khi cài đặt xong thì cần phải tinh chỉnh một số thứ như thiết lập PATH, thiết lập Bash Shell cho Console2(ConEmu),
+thêm alias, thay đổi bash prompt</p>
+
+<p><blockquote><p>Khi thực hiện cài đặt Ruby, NodeJS, Python ... nhớ lưu ý là nên thiết lập PATH để có thể gọi được từ Bash shell</p></blockquote></p>
+
+<p><strong>Console2 - ConEmu</strong></p>
+
+<p>Với Console2, tại <code>settings &gt; tabs</code> thiết lập Bash shell của msysgit bằng <code>C:\Windows\SysWOW64\cmd.exe /c ""C:\Program Files (x86)\Git\bin\sh.exe" --login -i"</code> tại mục <code>shell</code>, <code>name</code> thì đặt là <code>Bash</code>, và chuyển Tab này lên đầu thì khi mở Console2 nó sẽ vào Bash shell.</p>
+
+<p>Với ConEmu, <code>settings &gt; startup &gt; tasks</code> thiết lập Bash shell của msysgit giống trên, để khi khởi động thì vào Bash shell thì chọn <code>Specified named task</code> là <code>Bash</code> theo tên task đã đặt.</p>
+
+<p><blockquote><p>Việc sử dụng Bash shell một *nix terminal trên Windows sẽ giúp mình sử dụng được <code>ssh-client</code>, <code>scp</code>, <code>vim</code> và một cấu trúc thư mục tương thích với Linux</p></blockquote></p>
+
+<p><strong>Git - Github - Bitbucket</strong></p>
+
+<p>Với github, sử dụng <code>ssh-keygen</code> để tạo ssh key, sau đó sử dụng login vào github vào <code>settings &gt; ssh keys</code> chọn <code>add SSH key</code>, bạn copy-paste đoạn public key (bằng cách <code>cat ~/.ssh/id_rsa.pub</code>) vào phần key. Giờ bạn có thể sử dụng thực hiện update repo từ shell.</p>
+
+<p>Với bitbucket, cũng tương tự như trên, trong trường hợp bạn có nhiều tại khoản thì có thể tạo nhiều ssh key để sử dụng.</p>
+
+<p><strong>Sublime Text</strong></p>
+
+<p>Sau khi thiết lập PATH cho Sublime, thì tạo thêm 1 file trên cùng thư mục tên <code>subl</code> với nội dung
+``` bash</p>
+
+<h1>!/bin/sh</h1>
+
+<p>start /max sublime_text $1 $2 $3
+```</p>
+
+<p>Từ đây, có thể gọi SublimeText từ Bash shell bằng cách
+``` bash</p>
+
+<p>$ subl                         # Chỉ gọi Sublime
+$ subl /path/to/project        # Để gọi Sublime với project là folder vừa gọi
+```</p>
+
+<p><strong>Alias</strong></p>
+
+<p>Các command thường sử dụng thì nên tạo một folder có thiết lập PATH, làm vậy thì có thể thay thế đơn giản cho bash completion</p>
+
+<p><code>bash
+$ vboxmanage-list              # Giống như gọi vboxmanage list vms
+$ vboxmanage-list-running      # vboxmanage list runningvms
+$ vboxmanage-controlvm         # vboxmanage controlvm
+$ vboxmanage-modifyvm          # vboxmanage modifyvm
+</code></p>
+
+<h3>Kiểm tra lại</h3>
+]]></content>
+  </entry>
+  
+</feed>
