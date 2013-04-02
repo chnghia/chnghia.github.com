@@ -8,7 +8,7 @@ footer: true
 ---
 
 - [ci-ext]({{ root_url }}/blog/2013/04/02/ci-ext-proj)
-- [gps-track]({{ root_url }}/projects/gps-track.html)
+- [gps-track]({{ root_url }}/blog/2013/04/02/gps-track-proj)
 - [dropbox-pos]({{ root_url }}/projects/dropbox-pos.html)
 - [hrms2]({{ root_url }}/projects/hrms2.html)
 - [web-ts]({{ root_url }}/projects/web-ts.html)
