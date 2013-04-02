@@ -12,6 +12,8 @@ categories: [opensource, codeigniter, extjs, javascript, php]
 
 Đây là dự án mà mình dự định khởi động để làm một desktop-like application.
 
+{% img /images/post/2013-04-02-ci-extjs-screenshot.png 600%}
+
 ###Frameworks
 
 - PHP: CodeIgniter
