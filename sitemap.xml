@@ -21,8 +21,24 @@
         <lastmod>2013-04-01T22:01:47+07:00</lastmod>
     </url>
     <url>
+        <loc>http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-macos/</loc>
+        <lastmod>2013-04-01T22:01:47+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-ubuntu/</loc>
+        <lastmod>2013-04-01T22:01:47+07:00</lastmod>
+    </url>
+    <url>
         <loc>http://chnghia.github.com/blog/2013/03/30/wealthy/</loc>
         <lastmod>2013-03-30T23:21:07+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chnghia.github.com/blog/2013/04/02/ci-ext-proj/</loc>
+        <lastmod>2013-04-02T21:39:02+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chnghia.github.com/blog/2013/04/02/gps-track-proj/</loc>
+        <lastmod>2013-04-02T21:41:35+07:00</lastmod>
     </url>
     <url>
         <loc>http://chnghia.github.com/about.html</loc>
@@ -30,7 +46,7 @@
     </url>
     <url>
         <loc>http://chnghia.github.com/blog/archives/</loc>
-        <lastmod>2013-04-01T22:01:47+07:00</lastmod>
+        <lastmod>2013-04-02T21:41:35+07:00</lastmod>
     </url>
     <url>
         <loc>http://chnghia.github.com/iaas/cau-hinh-aws.html</loc>
@@ -46,7 +62,7 @@
     </url>
     <url>
         <loc>http://chnghia.github.com/</loc>
-        <lastmod>2013-04-01T22:01:47+07:00</lastmod>
+        <lastmod>2013-04-02T21:41:35+07:00</lastmod>
     </url>
     <url>
         <loc>http://chnghia.github.com/paas/</loc>
@@ -54,11 +70,11 @@
     </url>
     <url>
         <loc>http://chnghia.github.com/programming/</loc>
-        <lastmod>2013-03-28T21:57:37+07:00</lastmod>
+        <lastmod>2013-04-02T21:39:02+07:00</lastmod>
     </url>
     <url>
         <loc>http://chnghia.github.com/projects/ci-ext.html</loc>
-        <lastmod>2013-03-28T21:57:30+07:00</lastmod>
+        <lastmod>2013-04-02T21:39:02+07:00</lastmod>
     </url>
     <url>
         <loc>http://chnghia.github.com/projects/dropbox-pos.html</loc>
@@ -74,7 +90,7 @@
     </url>
     <url>
         <loc>http://chnghia.github.com/projects/</loc>
-        <lastmod>2013-03-28T21:57:19+07:00</lastmod>
+        <lastmod>2013-04-02T22:22:21+07:00</lastmod>
     </url>
     <url>
         <loc>http://chnghia.github.com/projects/web-ts.html</loc>
