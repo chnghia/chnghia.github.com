@@ -10,9 +10,10 @@ categories: [Ruby, NodeJS, Python]
 
 Ngôn ngữ lập trình
 
-- Ruby
-- NodeJS
-- C#
-- Python
-- Linux - Bash
-- Database - NoSQL
+- [Ruby]({{ root_url }}/blog/categories/ruby)
+- [NodeJS]({{ root_url }}/blog/categories/nodejs)
+- [C#]({{ root_url }}/blog/categories/csharp)
+- [PHP]({{ root_url }}/blog/categories/php)
+- [Python]({{ root_url }}/blog/categories/python)
+- [Bash]({{ root_url }}/blog/categories/bash)
+- [Database - NoSQL]({{ root_url }}/blog/categories/nosql)
