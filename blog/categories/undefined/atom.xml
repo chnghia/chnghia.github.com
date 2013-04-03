@@ -4,7 +4,7 @@
   <title><![CDATA[Category: undefined | chnghia's blog]]></title>
   <link href="http://chnghia.github.com/blog/categories/undefined/atom.xml" rel="self"/>
   <link href="http://chnghia.github.com/"/>
-  <updated>2013-04-02T23:29:26+07:00</updated>
+  <updated>2013-04-03T22:27:54+07:00</updated>
   <id>http://chnghia.github.com/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
@@ -14,11 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
+    <title type="html"><![CDATA[Hello Octopress]]></title>
     <link href="http://chnghia.github.com/blog/2013/03/20/hello-world/"/>
     <updated>2013-03-20T22:40:00+07:00</updated>
     <id>http://chnghia.github.com/blog/2013/03/20/hello-world</id>
-    <content type="html"><![CDATA[<p>Welcome to Octopess!</p>
+    <content type="html"><![CDATA[<p>Bye Wordpress &amp; welcome to Octopress!</p>
 ]]></content>
   </entry>
   

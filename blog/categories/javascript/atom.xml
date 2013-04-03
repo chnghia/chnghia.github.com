@@ -4,7 +4,7 @@
   <title><![CDATA[Category: javascript | chnghia's blog]]></title>
   <link href="http://chnghia.github.com/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://chnghia.github.com/"/>
-  <updated>2013-04-02T23:29:26+07:00</updated>
+  <updated>2013-04-03T22:27:54+07:00</updated>
   <id>http://chnghia.github.com/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
@@ -20,7 +20,7 @@
     <id>http://chnghia.github.com/blog/2013/04/02/gps-track-proj</id>
     <content type="html"><![CDATA[<h3>Ý tưởng</h3>
 
-<p>Dự án mà mình khởi động cho để làm GPS cho các thiết bị theo dõi xe ôtô, xe máy.
+<p>Dự án làm GPS cho các thiết bị theo dõi xe ôtô, xe máy.
 Dự án ở giai đoạn đánh giá để khởi động nhưng không có kinh phí cũng như nhân lực,
 nên đã tạm dừng.</p>
 
@@ -76,7 +76,7 @@ nên đã tạm dừng.</p>
     <id>http://chnghia.github.com/blog/2013/04/02/ci-ext-proj</id>
     <content type="html"><![CDATA[<h3>Ý tưởng</h3>
 
-<p>Đây là dự án mà mình dự định khởi động để làm một desktop-like application.</p>
+<p>Dự án định khởi động để làm một desktop-like application.</p>
 
 <!--more-->
 
