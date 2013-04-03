@@ -10,7 +10,7 @@ categories: [opensource, codeigniter, extjs, javascript, php]
 
 ###Ý tưởng
 
-Đây là dự án mà mình dự định khởi động để làm một desktop-like application.
+Dự án định khởi động để làm một desktop-like application.
 <!--more-->
 {% img /images/post/2013-04-02-ci-extjs-screenshot.png 600%}
 

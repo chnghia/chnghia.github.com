@@ -10,7 +10,7 @@ categories: [opensource, codeigniter, jquery, javascript, php]
 
 ###Ý tưởng
 
-Dự án mà mình khởi động cho để làm GPS cho các thiết bị theo dõi xe ôtô, xe máy.
+Dự án làm GPS cho các thiết bị theo dõi xe ôtô, xe máy.
 Dự án ở giai đoạn đánh giá để khởi động nhưng không có kinh phí cũng như nhân lực,
 nên đã tạm dừng.
 <!--more-->
