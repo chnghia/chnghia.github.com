@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Hello World"
+title: "Hello Octopress"
 date: 2013-03-20 22:40
 comments: true
 categories: undefined
 ---
 
-Welcome to Octopess!
+Bye Wordpress & welcome to Octopess!
