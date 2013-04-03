@@ -66,6 +66,15 @@ a {
 aside.sidebar a {
   @include link-colors($sidebar-link-color, $hover: $sidebar-link-color-hover, $focus: $sidebar-link-color-hover, $active: $sidebar-link-color-active);
 }
+
+aside.sidebar span#tag-cloud {
+  margin-top: 5px;
+}
+
+aside.sidebar span#tag-cloud a {
+  text-decoration: none;
+}
+
 a {
   @include transition(color .3s);
 }
