@@ -6,4 +6,4 @@ comments: true
 categories: undefined
 ---
 
-Bye Wordpress & welcome to Octopess!
+Bye Wordpress & welcome to Octopress!
