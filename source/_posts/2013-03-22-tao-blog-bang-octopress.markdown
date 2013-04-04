@@ -6,6 +6,8 @@ comments: true
 categories: [blog, octopress]
 ---
 
+**Updated: 2013-04-03**
+
 Để tạo một static-blog sử dụng Octopress các bạn có thể làm theo các bước đơn giản sau:
 
 - Các yêu cầu cài đặt
