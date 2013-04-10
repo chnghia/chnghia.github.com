@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: iaas | chnghia's blog]]></title>
+  <title><![CDATA[Category: IAAS | chnghia's blog]]></title>
   <link href="http://chnghia.github.com/blog/categories/iaas/atom.xml" rel="self"/>
   <link href="http://chnghia.github.com/"/>
-  <updated>2013-04-03T17:07:36+07:00</updated>
+  <updated>2013-04-10T23:35:33+07:00</updated>
   <id>http://chnghia.github.com/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
@@ -14,14 +14,64 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Definition as a Service]]></title>
-    <link href="http://chnghia.github.com/blog/2013/03/25/definition-as-a-service/"/>
-    <updated>2013-03-25T22:15:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/03/25/definition-as-a-service</id>
-    <content type="html"><![CDATA[<p>Tìm được một sơ đồ tương đối dễ hiểu về *aaS nên share
-<img src="/images/post/2013-03-25-definition-as-a-service.png"></p>
+    <title type="html"><![CDATA[Cơ bản về AWS]]></title>
+    <link href="http://chnghia.github.com/blog/2013/04/03/co-ban-ve-aws/"/>
+    <updated>2013-04-03T23:00:00+07:00</updated>
+    <id>http://chnghia.github.com/blog/2013/04/03/co-ban-ve-aws</id>
+    <content type="html"><![CDATA[<p>Đây là một số kinh nghiệm khi làm cho dự án về AWS. Để tìm hiểu sâu hơn các bạn có thể tham khảo <a href="http://aws.amazon.com/documentation/">tại đây</a>. AWS hiện tại cung cấp nhiều dịch vụ tùy vào yêu cầu dự án thì các bạn có thể sử dụng những dịch vụ cần thiết, đối với dự án của mình thì do dự án là chuyển đổi từ hosting sang AWS nên mình sử dụng các dịch vụ:</p>
 
-<p><em>source http://www.katescomment.com/iaas-paas-saas-definition/</em></p>
+<ul>
+<li>EC2 with EBS</li>
+<li>VPC</li>
+<li>Loadbalancer</li>
+<li>S3 (for backup)</li>
+<li>EC2-tools</li>
+</ul>
+
+
+<!--more-->
+
+
+<p><img src="/images/post/2013-04-04-co-ban-ve-aws.png" width="600"></p>
+
+<h3>EC2 with EBS</h3>
+
+<p>Dịch vụ EC2 dùng để chạy 1 instance (máy ảo). Về cơ bản để chạy 1 instance trên EC2 thì bạn có 2 cách</p>
+
+<ul>
+<li>Sử dụng các instance mặc định, hoặc trên AWS market place</li>
+<li>Hoặc tự tạo instance</li>
+</ul>
+
+
+<h3>VPC (Virtual Private Cloud)</h3>
+
+<p>Dùng để xây dựng 1 private network trên AWS, theo tài liệu của AWS thì có nhiều mô hình lựa chọn để xây dựng VPC,
+ngoài ra, Amazon cũng cung cấp dịch vụ VPN có tính phí đi kèm với VPC. Mình không sử dụng dịch vụ VPN mà thay vào đó
+là tự xây dựng một OpenVPN tiết kiệm hơn.</p>
+
+<h3>Loadbalancer</h3>
+
+<p>Dùng để cấu hình load balancer cho các service</p>
+
+<h3>S3 (Simple Storage Service)</h3>
+
+<p>Dùng để lưu trữ với giá tốt hơn so với sử dụng EBS. Ở đây mình chỉ sử dụng S3 như một Linux file system bằng cách sử dụng <a href="https://code.google.com/p/s3ql/">s3ql</a></p>
+
+<h3>EC2-tools</h3>
+
+<p>Với AWS ngoài việc sử dụng giao diện WEB thì bạn có thể sử dụng thư viện CLI để thao tác. Bạn có thể download thư viện <a href="http://aws.amazon.com/developertools/351">tại</a> hoặc tạo 1 instance Amazon Linux AMI có sẵn thư viện EC2-tools để sử dụng. Bạn chỉ cần thiết lập thêm</p>
+
+<p><code>bash
+export AWS_ACCESS_KEY=&lt;aws-access-key&gt;
+export AWS_SECRET_KEY=&lt;aws-secret-key&gt;
+export EC2_URL=https://&lt;region-url&gt;
+</code></p>
+
+<p>Với <code>&lt;aws-access-key&gt;/&lt;aws-secret-key&gt;</code> được lấy tại <code>Account Settings &gt; Security Credentials &gt; Access Credentials</code>.
+Nếu chưa tạo thì bạn <code>Create a new Access Key</code></p>
+
+<p>Với <code>&lt;region-url&gt;</code> được liệt kê trên shell bằng command <code>ec2-describe-regions</code></p>
 ]]></content>
   </entry>
   

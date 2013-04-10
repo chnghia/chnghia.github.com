@@ -4,7 +4,7 @@
   <title><![CDATA[chnghia's blog]]></title>
   <link href="http://chnghia.github.com/atom.xml" rel="self"/>
   <link href="http://chnghia.github.com/"/>
-  <updated>2013-04-03T17:07:36+07:00</updated>
+  <updated>2013-04-10T23:35:33+07:00</updated>
   <id>http://chnghia.github.com/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
@@ -12,6 +12,71 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cơ bản về AWS]]></title>
+    <link href="http://chnghia.github.com/blog/2013/04/03/co-ban-ve-aws/"/>
+    <updated>2013-04-03T23:00:00+07:00</updated>
+    <id>http://chnghia.github.com/blog/2013/04/03/co-ban-ve-aws</id>
+    <content type="html"><![CDATA[<p>Đây là một số kinh nghiệm khi làm cho dự án về AWS. Để tìm hiểu sâu hơn các bạn có thể tham khảo <a href="http://aws.amazon.com/documentation/">tại đây</a>. AWS hiện tại cung cấp nhiều dịch vụ tùy vào yêu cầu dự án thì các bạn có thể sử dụng những dịch vụ cần thiết, đối với dự án của mình thì do dự án là chuyển đổi từ hosting sang AWS nên mình sử dụng các dịch vụ:</p>
+
+<ul>
+<li>EC2 with EBS</li>
+<li>VPC</li>
+<li>Loadbalancer</li>
+<li>S3 (for backup)</li>
+<li>EC2-tools</li>
+</ul>
+
+
+<!--more-->
+
+
+<p><img src="http://chnghia.github.com/images/post/2013-04-04-co-ban-ve-aws.png" width="600"></p>
+
+<h3>EC2 with EBS</h3>
+
+<p>Dịch vụ EC2 dùng để chạy 1 instance (máy ảo). Về cơ bản để chạy 1 instance trên EC2 thì bạn có 2 cách</p>
+
+<ul>
+<li>Sử dụng các instance mặc định, hoặc trên AWS market place</li>
+<li>Hoặc tự tạo instance</li>
+</ul>
+
+
+<h3>VPC (Virtual Private Cloud)</h3>
+
+<p>Dùng để xây dựng 1 private network trên AWS, theo tài liệu của AWS thì có nhiều mô hình lựa chọn để xây dựng VPC,
+ngoài ra, Amazon cũng cung cấp dịch vụ VPN có tính phí đi kèm với VPC. Mình không sử dụng dịch vụ VPN mà thay vào đó
+là tự xây dựng một OpenVPN tiết kiệm hơn.</p>
+
+<h3>Loadbalancer</h3>
+
+<p>Dùng để cấu hình load balancer cho các service</p>
+
+<h3>S3 (Simple Storage Service)</h3>
+
+<p>Dùng để lưu trữ với giá tốt hơn so với sử dụng EBS. Ở đây mình chỉ sử dụng S3 như một Linux file system bằng cách sử dụng <a href="https://code.google.com/p/s3ql/">s3ql</a></p>
+
+<h3>EC2-tools</h3>
+
+<p>Với AWS ngoài việc sử dụng giao diện WEB thì bạn có thể sử dụng thư viện CLI để thao tác. Bạn có thể download thư viện <a href="http://aws.amazon.com/developertools/351">tại</a> hoặc tạo 1 instance Amazon Linux AMI có sẵn thư viện EC2-tools để sử dụng. Bạn chỉ cần thiết lập thêm</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">export </span><span class="nv">AWS_ACCESS_KEY</span><span class="o">=</span>&lt;aws-access-key&gt;
+</span><span class='line'><span class="nb">export </span><span class="nv">AWS_SECRET_KEY</span><span class="o">=</span>&lt;aws-secret-key&gt;
+</span><span class='line'><span class="nb">export </span><span class="nv">EC2_URL</span><span class="o">=</span>https://&lt;region-url&gt;
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Với <code>&lt;aws-access-key&gt;/&lt;aws-secret-key&gt;</code> được lấy tại <code>Account Settings &gt; Security Credentials &gt; Access Credentials</code>.
+Nếu chưa tạo thì bạn <code>Create a new Access Key</code></p>
+
+<p>Với <code>&lt;region-url&gt;</code> được liệt kê trên shell bằng command <code>ec2-describe-regions</code></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[gps-track proj]]></title>
@@ -122,6 +187,70 @@ nên đã tạm dừng.</p>
     <content type="html"><![CDATA[<p><img src="http://chnghia.github.com/images/post/2013-03-30-wealthy.jpg" width="400"></p>
 
 <p><em>source http://kryeveper.tumblr.com/post/44507244599</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Môi trường develop cho Ubuntu]]></title>
+    <link href="http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-ubuntu/"/>
+    <updated>2013-03-29T22:30:00+07:00</updated>
+    <id>http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-ubuntu</id>
+    <content type="html"><![CDATA[<h3>Mục đích</h3>
+
+<p>Mình thường sử dụng Ubuntu như là một môi trường *inx trên Windows, nên mình không cài Editor nào mà chỉ sử dụng Editor trên Windows.</p>
+
+<!--more-->
+
+
+<p><img src="http://chnghia.github.com/images/post/2013-03-31-ubuntu-desktop.png" width="600"></p>
+
+<h3>Cài đặt</h3>
+
+<ul>
+<li>Cài đặt Git</li>
+<li>Cài đặt Ruby</li>
+<li>Cài đặt NodeJS</li>
+<li>Cài đặt cifs, để nhận file share từ Windows</li>
+<li>Thiết lập môi trường</li>
+</ul>
+
+
+<h3>Chi tiết</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Môi trường develop cho MacOS]]></title>
+    <link href="http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-macos/"/>
+    <updated>2013-03-29T21:30:00+07:00</updated>
+    <id>http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-macos</id>
+    <content type="html"><![CDATA[<h3>Mục đích</h3>
+
+<p>Nếu sử dụng MacOS thì việc thiết lập môi trường đơn giản hơn vì sử dụng <a href="http://mxcl.github.com/homebrew/">Homebrew</a>, các phần mềm khác thì có thể tìm trong AppStore, hoặc <a href="http://appdl.net/">AppKed</a></p>
+
+<!--more-->
+
+
+<p><img src="http://chnghia.github.com/images/post/2013-03-31-macos-desktop.png" width="600"></p>
+
+<h3>Cài đặt</h3>
+
+<ul>
+<li>Cài đặt phần mềm dùng chung: Dropbox, Evernote, Editor - Sublime Text (*) &#8230;</li>
+<li>Cài đặt Homebrew</li>
+<li>Cài đặt Git</li>
+<li>Cài đặt Ruby</li>
+<li>Cài đặt NodeJS</li>
+<li>Cài đặt Python</li>
+<li>Thiết lập terminal, hoặc cài đặt iTerm</li>
+</ul>
+
+
+<h3>Chi tiết</h3>
+
+<h4>Các thiết lập môi trường</h4>
+
+<h4>Kiểm tra lại</h4>
 ]]></content>
   </entry>
   
@@ -350,7 +479,9 @@ thêm alias, thay đổi bash prompt</p>
     <link href="http://chnghia.github.com/blog/2013/03/22/tao-blog-bang-octopress/"/>
     <updated>2013-03-22T00:10:00+07:00</updated>
     <id>http://chnghia.github.com/blog/2013/03/22/tao-blog-bang-octopress</id>
-    <content type="html"><![CDATA[<p>Để tạo một static-blog sử dụng Octopress các bạn có thể làm theo các bước đơn giản sau:</p>
+    <content type="html"><![CDATA[<p><strong>Updated: 2013-04-03</strong></p>
+
+<p>Để tạo một static-blog sử dụng Octopress các bạn có thể làm theo các bước đơn giản sau:</p>
 
 <ul>
 <li>Các yêu cầu cài đặt</li>
@@ -463,7 +594,7 @@ thêm alias, thay đổi bash prompt</p>
     <link href="http://chnghia.github.com/blog/2013/03/20/hello-world/"/>
     <updated>2013-03-20T22:40:00+07:00</updated>
     <id>http://chnghia.github.com/blog/2013/03/20/hello-world</id>
-    <content type="html"><![CDATA[<p>Bye Wordpress &amp; welcome to Octopess!</p>
+    <content type="html"><![CDATA[<p>Bye Wordpress &amp; welcome to Octopress!</p>
 ]]></content>
   </entry>
   

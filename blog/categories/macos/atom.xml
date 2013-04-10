@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: MacOS | chnghia's blog]]></title>
+  <link href="http://chnghia.github.com/blog/categories/macos/atom.xml" rel="self"/>
+  <link href="http://chnghia.github.com/"/>
+  <updated>2013-04-10T23:35:33+07:00</updated>
+  <id>http://chnghia.github.com/</id>
+  <author>
+    <name><![CDATA[Nghia Chung]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Môi trường develop cho MacOS]]></title>
+    <link href="http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-macos/"/>
+    <updated>2013-03-29T21:30:00+07:00</updated>
+    <id>http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-macos</id>
+    <content type="html"><![CDATA[<h3>Mục đích</h3>
+
+<p>Nếu sử dụng MacOS thì việc thiết lập môi trường đơn giản hơn vì sử dụng <a href="http://mxcl.github.com/homebrew/">Homebrew</a>, các phần mềm khác thì có thể tìm trong AppStore, hoặc <a href="http://appdl.net/">AppKed</a></p>
+
+<!--more-->
+
+
+<p><img src="/images/post/2013-03-31-macos-desktop.png" width="600"></p>
+
+<h3>Cài đặt</h3>
+
+<ul>
+<li>Cài đặt phần mềm dùng chung: Dropbox, Evernote, Editor - Sublime Text (*) ...</li>
+<li>Cài đặt Homebrew</li>
+<li>Cài đặt Git</li>
+<li>Cài đặt Ruby</li>
+<li>Cài đặt NodeJS</li>
+<li>Cài đặt Python</li>
+<li>Thiết lập terminal, hoặc cài đặt iTerm</li>
+</ul>
+
+
+<h3>Chi tiết</h3>
+
+<h4>Các thiết lập môi trường</h4>
+
+<h4>Kiểm tra lại</h4>
+]]></content>
+  </entry>
+  
+</feed>
