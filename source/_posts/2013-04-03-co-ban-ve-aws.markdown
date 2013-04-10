@@ -35,7 +35,7 @@ Dùng để cấu hình load balancer cho các service
 Dùng để lưu trữ với giá tốt hơn so với sử dụng EBS. Ở đây mình chỉ sử dụng S3 như một Linux file system bằng cách sử dụng [s3ql](https://code.google.com/p/s3ql/)
 
 ### EC2-tools
-Với AWS ngoài việc sử dụng giao diện WEB thì bạn có thể sử dụng thư viện CLI để thao tác. Bạn có thể download thư viện [tại](http://aws.amazon.com/developertools/351) hoặc tạo 1 instance Amazon Linux AMI có sẳn thư viện EC2-tools để sử dụng. Bạn chỉ cần thiết lập thêm
+Với AWS ngoài việc sử dụng giao diện WEB thì bạn có thể sử dụng thư viện CLI để thao tác. Bạn có thể download thư viện [tại](http://aws.amazon.com/developertools/351) hoặc tạo 1 instance Amazon Linux AMI có sẵn thư viện EC2-tools để sử dụng. Bạn chỉ cần thiết lập thêm
 
 ``` bash
 export AWS_ACCESS_KEY=<aws-access-key>
