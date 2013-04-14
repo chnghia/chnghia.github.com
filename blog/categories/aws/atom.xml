@@ -4,7 +4,7 @@
   <title><![CDATA[Category: AWS | chnghia's blog]]></title>
   <link href="http://chnghia.github.io/blog/categories/aws/atom.xml" rel="self"/>
   <link href="http://chnghia.github.io/"/>
-  <updated>2013-04-14T22:58:29+07:00</updated>
+  <updated>2013-04-14T23:31:07+07:00</updated>
   <id>http://chnghia.github.io/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Sử dụng AWS EC2]]></title>
-    <link href="http://chnghia.github.io/blog/2013/04/10/su-dung-aws-ec2/"/>
+    <title type="html"><![CDATA[AWS EC2]]></title>
+    <link href="http://chnghia.github.io/blog/2013/04/10/aws-ec2/"/>
     <updated>2013-04-10T23:50:00+07:00</updated>
-    <id>http://chnghia.github.io/blog/2013/04/10/su-dung-aws-ec2</id>
+    <id>http://chnghia.github.io/blog/2013/04/10/aws-ec2</id>
     <content type="html"><![CDATA[<p><em>(doing)</em></p>
 ]]></content>
   </entry>

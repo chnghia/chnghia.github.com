@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | chnghia's blog]]></title>
   <link href="http://chnghia.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://chnghia.github.io/"/>
-  <updated>2013-04-14T22:58:29+07:00</updated>
+  <updated>2013-04-14T23:31:07+07:00</updated>
   <id>http://chnghia.github.io/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
@@ -45,6 +45,14 @@
 <li>Ruby 1.9.3 <code>ruby -v</code></li>
 </ol>
 
+
+<p><strong>Lưu ý:</strong>
+Khi sử dụng tiếng việt với encoding UTF-8 thì phải thiết lập thêm trong biến môi trường của Windows, vì khi generate với UTF-8 sẽ bị lỗi của gem</p>
+
+<p><code>bash
+LANG=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+</code></p>
 
 <h3>Dùng git clone repo Octopress về máy</h3>
 

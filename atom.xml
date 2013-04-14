@@ -4,7 +4,7 @@
   <title><![CDATA[chnghia's blog]]></title>
   <link href="http://chnghia.github.io/atom.xml" rel="self"/>
   <link href="http://chnghia.github.io/"/>
-  <updated>2013-04-14T22:58:29+07:00</updated>
+  <updated>2013-04-14T23:31:07+07:00</updated>
   <id>http://chnghia.github.io/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
@@ -34,10 +34,10 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Sử dụng AWS EC2]]></title>
-    <link href="http://chnghia.github.io/blog/2013/04/10/su-dung-aws-ec2/"/>
+    <title type="html"><![CDATA[AWS EC2]]></title>
+    <link href="http://chnghia.github.io/blog/2013/04/10/aws-ec2/"/>
     <updated>2013-04-10T23:50:00+07:00</updated>
-    <id>http://chnghia.github.io/blog/2013/04/10/su-dung-aws-ec2</id>
+    <id>http://chnghia.github.io/blog/2013/04/10/aws-ec2</id>
     <content type="html"><![CDATA[<p><em>(doing)</em></p>
 ]]></content>
   </entry>
@@ -470,6 +470,16 @@ thêm alias, thay đổi bash prompt</p>
 <li>Git <code>git --version</code></li>
 <li>Ruby 1.9.3 <code>ruby -v</code></li>
 </ol>
+
+
+<p><strong>Lưu ý:</strong>
+Khi sử dụng tiếng việt với encoding UTF-8 thì phải thiết lập thêm trong biến môi trường của Windows, vì khi generate với UTF-8 sẽ bị lỗi của gem</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">LANG</span><span class="o">=</span>en_US.UTF-8
+</span><span class='line'><span class="nv">LC_ALL</span><span class="o">=</span>en_US.UTF-8
+</span></code></pre></td></tr></table></div></figure>
 
 
 <h3>Dùng git clone repo Octopress về máy</h3>
