@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://chnghia.github.com/sitemap.xml 
+Sitemap: http://chnghia.github.io/sitemap.xml 

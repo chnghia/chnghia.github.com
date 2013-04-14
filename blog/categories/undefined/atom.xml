@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: undefined | chnghia's blog]]></title>
-  <link href="http://chnghia.github.com/blog/categories/undefined/atom.xml" rel="self"/>
-  <link href="http://chnghia.github.com/"/>
-  <updated>2013-04-10T23:38:58+07:00</updated>
-  <id>http://chnghia.github.com/</id>
+  <link href="http://chnghia.github.io/blog/categories/undefined/atom.xml" rel="self"/>
+  <link href="http://chnghia.github.io/"/>
+  <updated>2013-04-14T22:51:01+07:00</updated>
+  <id>http://chnghia.github.io/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello Octopress]]></title>
-    <link href="http://chnghia.github.com/blog/2013/03/20/hello-world/"/>
+    <link href="http://chnghia.github.io/blog/2013/03/20/hello-world/"/>
     <updated>2013-03-20T22:40:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/03/20/hello-world</id>
+    <id>http://chnghia.github.io/blog/2013/03/20/hello-world</id>
     <content type="html"><![CDATA[<p>Bye Wordpress &amp; welcome to Octopress!</p>
 ]]></content>
   </entry>

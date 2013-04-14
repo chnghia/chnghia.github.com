@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: quote | chnghia's blog]]></title>
-  <link href="http://chnghia.github.com/blog/categories/quote/atom.xml" rel="self"/>
-  <link href="http://chnghia.github.com/"/>
-  <updated>2013-04-10T23:38:58+07:00</updated>
-  <id>http://chnghia.github.com/</id>
+  <link href="http://chnghia.github.io/blog/categories/quote/atom.xml" rel="self"/>
+  <link href="http://chnghia.github.io/"/>
+  <updated>2013-04-14T22:51:01+07:00</updated>
+  <id>http://chnghia.github.io/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[wealthy?]]></title>
-    <link href="http://chnghia.github.com/blog/2013/03/30/wealthy/"/>
+    <link href="http://chnghia.github.io/blog/2013/03/30/wealthy/"/>
     <updated>2013-03-30T22:32:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/03/30/wealthy</id>
+    <id>http://chnghia.github.io/blog/2013/03/30/wealthy</id>
     <content type="html"><![CDATA[<p><img src="/images/post/2013-03-30-wealthy.jpg" width="400"></p>
 
 <p><em>source http://kryeveper.tumblr.com/post/44507244599</em></p>

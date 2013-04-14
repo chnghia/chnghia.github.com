@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: octopress | chnghia's blog]]></title>
-  <link href="http://chnghia.github.com/blog/categories/octopress/atom.xml" rel="self"/>
-  <link href="http://chnghia.github.com/"/>
-  <updated>2013-04-10T23:38:58+07:00</updated>
-  <id>http://chnghia.github.com/</id>
+  <link href="http://chnghia.github.io/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://chnghia.github.io/"/>
+  <updated>2013-04-14T22:51:01+07:00</updated>
+  <id>http://chnghia.github.io/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Tạo blog bằng Octopress]]></title>
-    <link href="http://chnghia.github.com/blog/2013/03/22/tao-blog-bang-octopress/"/>
+    <link href="http://chnghia.github.io/blog/2013/03/22/tao-blog-bang-octopress/"/>
     <updated>2013-03-22T00:10:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/03/22/tao-blog-bang-octopress</id>
+    <id>http://chnghia.github.io/blog/2013/03/22/tao-blog-bang-octopress</id>
     <content type="html"><![CDATA[<p><strong>Updated: 2013-04-03</strong></p>
 
 <p>Để tạo một static-blog sử dụng Octopress các bạn có thể làm theo các bước đơn giản sau:</p>
@@ -103,9 +103,9 @@ bundle exec rake new_page[page-title]</p>
   
   <entry>
     <title type="html"><![CDATA[Tại sao sử dụng Octopress?]]></title>
-    <link href="http://chnghia.github.com/blog/2013/03/21/tai-sao-su-dung-octopress/"/>
+    <link href="http://chnghia.github.io/blog/2013/03/21/tai-sao-su-dung-octopress/"/>
     <updated>2013-03-21T00:21:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/03/21/tai-sao-su-dung-octopress</id>
+    <id>http://chnghia.github.io/blog/2013/03/21/tai-sao-su-dung-octopress</id>
     <content type="html"><![CDATA[<p>Khi tạo blog mọi người thường sử dụng <a href="http://chnghia.wordpress.com">Wordpress</a> hoặc blogspot tuy nhiên các blog này thường phải sử dụng database để lưu các post, việc này tuy tiện lợi nhưng về mặt kỹ thuật nó sẽ tốn nhiều thời gian hơn để render một page, độ bảo mật không tốt vì có thể đánh cắp password ...</p>
 
 <!--more-->

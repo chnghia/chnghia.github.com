@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Develop | chnghia's blog]]></title>
-  <link href="http://chnghia.github.com/blog/categories/develop/atom.xml" rel="self"/>
-  <link href="http://chnghia.github.com/"/>
-  <updated>2013-04-10T23:38:58+07:00</updated>
-  <id>http://chnghia.github.com/</id>
+  <link href="http://chnghia.github.io/blog/categories/develop/atom.xml" rel="self"/>
+  <link href="http://chnghia.github.io/"/>
+  <updated>2013-04-14T22:51:01+07:00</updated>
+  <id>http://chnghia.github.io/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Môi trường develop cho Windows]]></title>
-    <link href="http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-windows/"/>
+    <link href="http://chnghia.github.io/blog/2013/03/29/moi-truong-develop-cho-windows/"/>
     <updated>2013-03-29T20:30:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-windows</id>
+    <id>http://chnghia.github.io/blog/2013/03/29/moi-truong-develop-cho-windows</id>
     <content type="html"><![CDATA[<h3>Mục đích</h3>
 
 <p>Đây là những thiết lập của mình cho một môi trường develop hướng đến lập trình Ruby, NodeJS, hoặc Web nói chung.

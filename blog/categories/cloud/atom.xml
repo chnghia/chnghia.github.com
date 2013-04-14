@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: cloud | chnghia's blog]]></title>
-  <link href="http://chnghia.github.com/blog/categories/cloud/atom.xml" rel="self"/>
-  <link href="http://chnghia.github.com/"/>
-  <updated>2013-04-10T23:38:58+07:00</updated>
-  <id>http://chnghia.github.com/</id>
+  <link href="http://chnghia.github.io/blog/categories/cloud/atom.xml" rel="self"/>
+  <link href="http://chnghia.github.io/"/>
+  <updated>2013-04-14T22:51:01+07:00</updated>
+  <id>http://chnghia.github.io/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Definition as a Service]]></title>
-    <link href="http://chnghia.github.com/blog/2013/03/25/definition-as-a-service/"/>
+    <link href="http://chnghia.github.io/blog/2013/03/25/definition-as-a-service/"/>
     <updated>2013-03-25T22:15:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/03/25/definition-as-a-service</id>
+    <id>http://chnghia.github.io/blog/2013/03/25/definition-as-a-service</id>
     <content type="html"><![CDATA[<p>Tìm được một sơ đồ tương đối dễ hiểu về *aaS nên share
 <img src="/images/post/2013-03-25-definition-as-a-service.png"></p>
 

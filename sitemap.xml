@@ -1,103 +1,111 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://chnghia.github.com/blog/2013/03/20/hello-world/</loc>
+        <loc>http://chnghia.github.io/blog/2013/03/20/hello-world/</loc>
         <lastmod>2013-04-03T22:48:09+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/blog/2013/03/21/tai-sao-su-dung-octopress/</loc>
+        <loc>http://chnghia.github.io/blog/2013/03/21/tai-sao-su-dung-octopress/</loc>
         <lastmod>2013-03-21T23:26:21+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/blog/2013/03/22/tao-blog-bang-octopress/</loc>
+        <loc>http://chnghia.github.io/blog/2013/03/22/tao-blog-bang-octopress/</loc>
         <lastmod>2013-04-03T23:09:12+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/blog/2013/03/25/definition-as-a-service/</loc>
+        <loc>http://chnghia.github.io/blog/2013/03/25/definition-as-a-service/</loc>
         <lastmod>2013-03-26T00:42:27+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-windows/</loc>
+        <loc>http://chnghia.github.io/blog/2013/03/29/moi-truong-develop-cho-windows/</loc>
         <lastmod>2013-04-01T22:01:47+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/blog/2013/03/30/wealthy/</loc>
+        <loc>http://chnghia.github.io/blog/2013/03/30/wealthy/</loc>
         <lastmod>2013-03-30T23:21:07+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/blog/2013/04/02/ci-ext-proj/</loc>
+        <loc>http://chnghia.github.io/blog/2013/04/02/ci-ext-proj/</loc>
         <lastmod>2013-04-03T13:55:16+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/blog/2013/04/02/gps-track-proj/</loc>
+        <loc>http://chnghia.github.io/blog/2013/04/02/gps-track-proj/</loc>
         <lastmod>2013-04-03T13:55:13+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/blog/2013/04/03/co-ban-ve-aws/</loc>
+        <loc>http://chnghia.github.io/blog/2013/04/03/co-ban-ve-aws/</loc>
         <lastmod>2013-04-10T23:35:35+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/about.html</loc>
+        <loc>http://chnghia.github.io/blog/2013/04/10/su-dung-aws-ec2/</loc>
+        <lastmod>2013-04-14T22:35:34+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chnghia.github.io/blog/2013/04/14/tip-su-dung-vistaswitcher/</loc>
+        <lastmod>2013-04-14T22:47:25+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chnghia.github.io/about.html</loc>
         <lastmod>2013-03-21T22:03:06+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/blog/archives/</loc>
-        <lastmod>2013-04-10T23:35:35+07:00</lastmod>
+        <loc>http://chnghia.github.io/blog/archives/</loc>
+        <lastmod>2013-04-14T22:47:25+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/iaas/cau-hinh-aws.html</loc>
+        <loc>http://chnghia.github.io/iaas/cau-hinh-aws.html</loc>
         <lastmod>2013-04-03T23:06:41+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/iaas/</loc>
+        <loc>http://chnghia.github.io/iaas/</loc>
         <lastmod>2013-04-03T23:07:15+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/iaas/moi-truong-develop.html</loc>
+        <loc>http://chnghia.github.io/iaas/moi-truong-develop.html</loc>
         <lastmod>2013-03-30T23:40:30+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/</loc>
-        <lastmod>2013-04-10T23:35:35+07:00</lastmod>
+        <loc>http://chnghia.github.io/</loc>
+        <lastmod>2013-04-14T22:47:25+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/paas/</loc>
+        <loc>http://chnghia.github.io/paas/</loc>
         <lastmod>2013-03-28T21:57:10+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/programming/</loc>
+        <loc>http://chnghia.github.io/programming/</loc>
         <lastmod>2013-04-02T15:05:07+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/projects/ci-ext.html</loc>
+        <loc>http://chnghia.github.io/projects/ci-ext.html</loc>
         <lastmod>2013-04-02T12:37:49+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/projects/dropbox-pos.html</loc>
+        <loc>http://chnghia.github.io/projects/dropbox-pos.html</loc>
         <lastmod>2013-03-26T09:59:27+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/projects/gps-track.html</loc>
+        <loc>http://chnghia.github.io/projects/gps-track.html</loc>
         <lastmod>2013-03-26T09:59:33+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/projects/hrms2.html</loc>
+        <loc>http://chnghia.github.io/projects/hrms2.html</loc>
         <lastmod>2013-03-26T09:59:44+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/projects/</loc>
+        <loc>http://chnghia.github.io/projects/</loc>
         <lastmod>2013-04-03T09:30:02+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/projects/web-ts.html</loc>
+        <loc>http://chnghia.github.io/projects/web-ts.html</loc>
         <lastmod>2013-03-26T09:59:49+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/robots.txt</loc>
+        <loc>http://chnghia.github.io/robots.txt</loc>
         <lastmod>2013-03-20T22:04:09+07:00</lastmod>
     </url>
     <url>
-        <loc>http://chnghia.github.com/tips/</loc>
+        <loc>http://chnghia.github.io/tips/</loc>
         <lastmod>2013-03-28T21:57:47+07:00</lastmod>
     </url>
 </urlset>

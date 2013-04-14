@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: IAAS | chnghia's blog]]></title>
-  <link href="http://chnghia.github.com/blog/categories/iaas/atom.xml" rel="self"/>
-  <link href="http://chnghia.github.com/"/>
-  <updated>2013-04-10T23:38:58+07:00</updated>
-  <id>http://chnghia.github.com/</id>
+  <link href="http://chnghia.github.io/blog/categories/iaas/atom.xml" rel="self"/>
+  <link href="http://chnghia.github.io/"/>
+  <updated>2013-04-14T22:51:01+07:00</updated>
+  <id>http://chnghia.github.io/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
     
@@ -14,10 +14,19 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Sử dụng AWS EC2]]></title>
+    <link href="http://chnghia.github.io/blog/2013/04/10/su-dung-aws-ec2/"/>
+    <updated>2013-04-10T23:50:00+07:00</updated>
+    <id>http://chnghia.github.io/blog/2013/04/10/su-dung-aws-ec2</id>
+    <content type="html"><![CDATA[<p><em>(doing)</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Cơ bản về AWS]]></title>
-    <link href="http://chnghia.github.com/blog/2013/04/03/co-ban-ve-aws/"/>
+    <link href="http://chnghia.github.io/blog/2013/04/03/co-ban-ve-aws/"/>
     <updated>2013-04-03T23:00:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/04/03/co-ban-ve-aws</id>
+    <id>http://chnghia.github.io/blog/2013/04/03/co-ban-ve-aws</id>
     <content type="html"><![CDATA[<p>Đây là một số kinh nghiệm khi làm cho dự án về AWS. Để tìm hiểu sâu hơn các bạn có thể tham khảo <a href="http://aws.amazon.com/documentation/">tại đây</a>. AWS hiện tại cung cấp nhiều dịch vụ tùy vào yêu cầu dự án thì các bạn có thể sử dụng những dịch vụ cần thiết, đối với dự án của mình thì do dự án là chuyển đổi từ hosting sang AWS nên mình sử dụng các dịch vụ:</p>
 
 <ul>

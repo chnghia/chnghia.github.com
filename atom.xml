@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[chnghia's blog]]></title>
-  <link href="http://chnghia.github.com/atom.xml" rel="self"/>
-  <link href="http://chnghia.github.com/"/>
-  <updated>2013-04-10T23:38:58+07:00</updated>
-  <id>http://chnghia.github.com/</id>
+  <link href="http://chnghia.github.io/atom.xml" rel="self"/>
+  <link href="http://chnghia.github.io/"/>
+  <updated>2013-04-14T22:51:01+07:00</updated>
+  <id>http://chnghia.github.io/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
     
@@ -14,10 +14,39 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Tips: Sử dụng VistaSwitcher cho Alt+`]]></title>
+    <link href="http://chnghia.github.io/blog/2013/04/14/tip-su-dung-vistaswitcher/"/>
+    <updated>2013-04-14T22:30:00+07:00</updated>
+    <id>http://chnghia.github.io/blog/2013/04/14/tip-su-dung-vistaswitcher</id>
+    <content type="html"><![CDATA[<p>Trong Windows thì khi chuyển cửa sổ thường dùng Alt-Tab. Nhưng khi muốn chuyển cửa sổ cùng loại như SublimeText, hoặc Chrome, thì không có phím tắt như trong MacOS (dùng Cmd + `). Nên khi làm việc trên nhiều windows cùng loại hơi bị &#8220;thiệt&#8221; một chút.</p>
+
+<p>Có một phần mềm free là <a href="http://www.ntwind.com/software/vistaswitcher.html">VistaSwitcher</a> khi sử dụng nó thì ngoài việc hổ trợ tốt hơn Alt-Tab, nó cũng hỗ trợ luôn Alt-` (chuyển cửa sổ cùng application).</p>
+
+<!--more-->
+
+
+<p><img src="http://images.ntwind.com/vistaswitcher/vswitch_small-2.png"></p>
+
+<h4>P/S</h4>
+
+<p>Có một phần mềm free nữa của ntwind software mà mình rất thích là <a href="http://www.ntwind.com/software/utilities/visual-subst.html">Visual Subst</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sử dụng AWS EC2]]></title>
+    <link href="http://chnghia.github.io/blog/2013/04/10/su-dung-aws-ec2/"/>
+    <updated>2013-04-10T23:50:00+07:00</updated>
+    <id>http://chnghia.github.io/blog/2013/04/10/su-dung-aws-ec2</id>
+    <content type="html"><![CDATA[<p><em>(doing)</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Cơ bản về AWS]]></title>
-    <link href="http://chnghia.github.com/blog/2013/04/03/co-ban-ve-aws/"/>
+    <link href="http://chnghia.github.io/blog/2013/04/03/co-ban-ve-aws/"/>
     <updated>2013-04-03T23:00:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/04/03/co-ban-ve-aws</id>
+    <id>http://chnghia.github.io/blog/2013/04/03/co-ban-ve-aws</id>
     <content type="html"><![CDATA[<p>Đây là một số kinh nghiệm khi làm cho dự án về AWS. Để tìm hiểu sâu hơn các bạn có thể tham khảo <a href="http://aws.amazon.com/documentation/">tại đây</a>. AWS hiện tại cung cấp nhiều dịch vụ tùy vào yêu cầu dự án thì các bạn có thể sử dụng những dịch vụ cần thiết, đối với dự án của mình thì do dự án là chuyển đổi từ hosting sang AWS nên mình sử dụng các dịch vụ:</p>
 
 <ul>
@@ -32,7 +61,7 @@
 <!--more-->
 
 
-<p><img src="http://chnghia.github.com/images/post/2013-04-04-co-ban-ve-aws.png" width="600"></p>
+<p><img src="http://chnghia.github.io/images/post/2013-04-04-co-ban-ve-aws.png" width="600"></p>
 
 <h3>EC2 with EBS</h3>
 
@@ -80,9 +109,9 @@ Nếu chưa tạo thì bạn <code>Create a new Access Key</code></p>
   
   <entry>
     <title type="html"><![CDATA[gps-track proj]]></title>
-    <link href="http://chnghia.github.com/blog/2013/04/02/gps-track-proj/"/>
+    <link href="http://chnghia.github.io/blog/2013/04/02/gps-track-proj/"/>
     <updated>2013-04-02T17:32:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/04/02/gps-track-proj</id>
+    <id>http://chnghia.github.io/blog/2013/04/02/gps-track-proj</id>
     <content type="html"><![CDATA[<h3>Ý tưởng</h3>
 
 <p>Dự án làm GPS cho các thiết bị theo dõi xe ôtô, xe máy.
@@ -92,7 +121,7 @@ nên đã tạm dừng.</p>
 <!--more-->
 
 
-<p><img src="http://chnghia.github.com/images/post/2013-04-02-gps-track-screenshot.png" width="600"></p>
+<p><img src="http://chnghia.github.io/images/post/2013-04-02-gps-track-screenshot.png" width="600"></p>
 
 <h3>Chức năng chính</h3>
 
@@ -136,9 +165,9 @@ nên đã tạm dừng.</p>
   
   <entry>
     <title type="html"><![CDATA[ci-ext proj]]></title>
-    <link href="http://chnghia.github.com/blog/2013/04/02/ci-ext-proj/"/>
+    <link href="http://chnghia.github.io/blog/2013/04/02/ci-ext-proj/"/>
     <updated>2013-04-02T15:16:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/04/02/ci-ext-proj</id>
+    <id>http://chnghia.github.io/blog/2013/04/02/ci-ext-proj</id>
     <content type="html"><![CDATA[<h3>Ý tưởng</h3>
 
 <p>Dự án định khởi động để làm một desktop-like application.</p>
@@ -146,7 +175,7 @@ nên đã tạm dừng.</p>
 <!--more-->
 
 
-<p><img src="http://chnghia.github.com/images/post/2013-04-02-ci-extjs-screenshot.png" width="600"></p>
+<p><img src="http://chnghia.github.io/images/post/2013-04-02-ci-extjs-screenshot.png" width="600"></p>
 
 <h3>Frameworks</h3>
 
@@ -181,10 +210,10 @@ nên đã tạm dừng.</p>
   
   <entry>
     <title type="html"><![CDATA[wealthy?]]></title>
-    <link href="http://chnghia.github.com/blog/2013/03/30/wealthy/"/>
+    <link href="http://chnghia.github.io/blog/2013/03/30/wealthy/"/>
     <updated>2013-03-30T22:32:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/03/30/wealthy</id>
-    <content type="html"><![CDATA[<p><img src="http://chnghia.github.com/images/post/2013-03-30-wealthy.jpg" width="400"></p>
+    <id>http://chnghia.github.io/blog/2013/03/30/wealthy</id>
+    <content type="html"><![CDATA[<p><img src="http://chnghia.github.io/images/post/2013-03-30-wealthy.jpg" width="400"></p>
 
 <p><em>source http://kryeveper.tumblr.com/post/44507244599</em></p>
 ]]></content>
@@ -192,9 +221,9 @@ nên đã tạm dừng.</p>
   
   <entry>
     <title type="html"><![CDATA[Môi trường develop cho Windows]]></title>
-    <link href="http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-windows/"/>
+    <link href="http://chnghia.github.io/blog/2013/03/29/moi-truong-develop-cho-windows/"/>
     <updated>2013-03-29T20:30:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/03/29/moi-truong-develop-cho-windows</id>
+    <id>http://chnghia.github.io/blog/2013/03/29/moi-truong-develop-cho-windows</id>
     <content type="html"><![CDATA[<h3>Mục đích</h3>
 
 <p>Đây là những thiết lập của mình cho một môi trường develop hướng đến lập trình Ruby, NodeJS, hoặc Web nói chung.
@@ -203,7 +232,7 @@ Ngoài ra, việc cài đặt còn phụ thuộc vào thói quen sử dụng má
 <!--more-->
 
 
-<p><img src="http://chnghia.github.com/images/post/2013-03-29-windows-desktop.png" width="600"></p>
+<p><img src="http://chnghia.github.io/images/post/2013-03-29-windows-desktop.png" width="600"></p>
 
 <h3>Cài đặt</h3>
 
@@ -394,17 +423,17 @@ thêm alias, thay đổi bash prompt</p>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p><img src="http://chnghia.github.com/images/post/2013-04-01-windows-desktop-check.png" width="600"></p>
+<p><img src="http://chnghia.github.io/images/post/2013-04-01-windows-desktop-check.png" width="600"></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Definition as a Service]]></title>
-    <link href="http://chnghia.github.com/blog/2013/03/25/definition-as-a-service/"/>
+    <link href="http://chnghia.github.io/blog/2013/03/25/definition-as-a-service/"/>
     <updated>2013-03-25T22:15:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/03/25/definition-as-a-service</id>
+    <id>http://chnghia.github.io/blog/2013/03/25/definition-as-a-service</id>
     <content type="html"><![CDATA[<p>Tìm được một sơ đồ tương đối dễ hiểu về *aaS nên share
-<img src="http://chnghia.github.com/images/post/2013-03-25-definition-as-a-service.png"></p>
+<img src="http://chnghia.github.io/images/post/2013-03-25-definition-as-a-service.png"></p>
 
 <p><em>source http://www.katescomment.com/iaas-paas-saas-definition/</em></p>
 ]]></content>
@@ -412,9 +441,9 @@ thêm alias, thay đổi bash prompt</p>
   
   <entry>
     <title type="html"><![CDATA[Tạo blog bằng Octopress]]></title>
-    <link href="http://chnghia.github.com/blog/2013/03/22/tao-blog-bang-octopress/"/>
+    <link href="http://chnghia.github.io/blog/2013/03/22/tao-blog-bang-octopress/"/>
     <updated>2013-03-22T00:10:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/03/22/tao-blog-bang-octopress</id>
+    <id>http://chnghia.github.io/blog/2013/03/22/tao-blog-bang-octopress</id>
     <content type="html"><![CDATA[<p><strong>Updated: 2013-04-03</strong></p>
 
 <p>Để tạo một static-blog sử dụng Octopress các bạn có thể làm theo các bước đơn giản sau:</p>
@@ -513,9 +542,9 @@ thêm alias, thay đổi bash prompt</p>
   
   <entry>
     <title type="html"><![CDATA[Tại sao sử dụng Octopress?]]></title>
-    <link href="http://chnghia.github.com/blog/2013/03/21/tai-sao-su-dung-octopress/"/>
+    <link href="http://chnghia.github.io/blog/2013/03/21/tai-sao-su-dung-octopress/"/>
     <updated>2013-03-21T00:21:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/03/21/tai-sao-su-dung-octopress</id>
+    <id>http://chnghia.github.io/blog/2013/03/21/tai-sao-su-dung-octopress</id>
     <content type="html"><![CDATA[<p>Khi tạo blog mọi người thường sử dụng <a href="http://chnghia.wordpress.com">Wordpress</a> hoặc blogspot tuy nhiên các blog này thường phải sử dụng database để lưu các post, việc này tuy tiện lợi nhưng về mặt kỹ thuật nó sẽ tốn nhiều thời gian hơn để render một page, độ bảo mật không tốt vì có thể đánh cắp password &#8230;</p>
 
 <!--more-->
@@ -527,9 +556,9 @@ thêm alias, thay đổi bash prompt</p>
   
   <entry>
     <title type="html"><![CDATA[Hello Octopress]]></title>
-    <link href="http://chnghia.github.com/blog/2013/03/20/hello-world/"/>
+    <link href="http://chnghia.github.io/blog/2013/03/20/hello-world/"/>
     <updated>2013-03-20T22:40:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/03/20/hello-world</id>
+    <id>http://chnghia.github.io/blog/2013/03/20/hello-world</id>
     <content type="html"><![CDATA[<p>Bye Wordpress &amp; welcome to Octopress!</p>
 ]]></content>
   </entry>

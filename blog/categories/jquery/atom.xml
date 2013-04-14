@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: jquery | chnghia's blog]]></title>
-  <link href="http://chnghia.github.com/blog/categories/jquery/atom.xml" rel="self"/>
-  <link href="http://chnghia.github.com/"/>
-  <updated>2013-04-10T23:38:58+07:00</updated>
-  <id>http://chnghia.github.com/</id>
+  <link href="http://chnghia.github.io/blog/categories/jquery/atom.xml" rel="self"/>
+  <link href="http://chnghia.github.io/"/>
+  <updated>2013-04-14T22:51:01+07:00</updated>
+  <id>http://chnghia.github.io/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[gps-track proj]]></title>
-    <link href="http://chnghia.github.com/blog/2013/04/02/gps-track-proj/"/>
+    <link href="http://chnghia.github.io/blog/2013/04/02/gps-track-proj/"/>
     <updated>2013-04-02T17:32:00+07:00</updated>
-    <id>http://chnghia.github.com/blog/2013/04/02/gps-track-proj</id>
+    <id>http://chnghia.github.io/blog/2013/04/02/gps-track-proj</id>
     <content type="html"><![CDATA[<h3>Ý tưởng</h3>
 
 <p>Dự án làm GPS cho các thiết bị theo dõi xe ôtô, xe máy.
