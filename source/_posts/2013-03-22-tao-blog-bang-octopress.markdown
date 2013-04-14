@@ -27,6 +27,14 @@ Dùng `cmd.exe` (Windows) hoặc `terminal` (Linux) để kiểm tra
 1. Git `git --version`
 2. Ruby 1.9.3 `ruby -v`
 
+**Lưu ý:**
+Khi sử dụng tiếng việt với encoding UTF-8 thì phải thiết lập thêm trong biến môi trường của Windows, vì khi generate với UTF-8 sẽ bị lỗi của gem
+
+``` bash
+LANG=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+```
+
 ### Dùng git clone repo Octopress về máy
 
 ``` bash

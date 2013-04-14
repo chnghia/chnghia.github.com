@@ -3,7 +3,7 @@ layout: post
 title: "Tips: Sử dụng VistaSwitcher cho Alt+`"
 date: 2013-04-14 22:30
 comments: true
-categories: [tips, windows, VistaSwitcher, VisualSubst]
+categories: [tips, Windows, VistaSwitcher, VisualSubst]
 ---
 
 Trong Windows thì khi chuyển cửa sổ thường dùng Alt-Tab. Nhưng khi muốn chuyển cửa sổ cùng loại như SublimeText, hoặc Chrome, thì không có phím tắt như trong MacOS (dùng Cmd + \`). Nên khi làm việc trên nhiều windows cùng loại hơi bị "thiệt" một chút.
