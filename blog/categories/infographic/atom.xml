@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: infographic | chnghia's blog]]></title>
+  <link href="http://chnghia.github.io/blog/categories/infographic/atom.xml" rel="self"/>
+  <link href="http://chnghia.github.io/"/>
+  <updated>2013-04-15T00:43:18+07:00</updated>
+  <id>http://chnghia.github.io/</id>
+  <author>
+    <name><![CDATA[Nghia Chung]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Modern Language Wars]]></title>
+    <link href="http://chnghia.github.io/blog/2013/04/15/modern-language-wars/"/>
+    <updated>2013-04-15T00:29:00+07:00</updated>
+    <id>http://chnghia.github.io/blog/2013/04/15/modern-language-wars</id>
+    <content type="html"><![CDATA[<p>Một infographic về ngôn ngữ lập trình PHP, Ruby và Python.</p>
+
+<!--more-->
+
+
+<p><img src="/images/post/2013-04-15-modern-language-wars.png"></p>
+
+<p><em>source https://www.udemy.com/blog/modern-language-wars/</em></p>
+]]></content>
+  </entry>
+  
+</feed>
