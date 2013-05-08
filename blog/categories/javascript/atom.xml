@@ -4,7 +4,7 @@
   <title><![CDATA[Category: javascript | chnghia's blog]]></title>
   <link href="http://chnghia.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://chnghia.github.io/"/>
-  <updated>2013-05-08T12:00:41+07:00</updated>
+  <updated>2013-05-08T15:45:08+07:00</updated>
   <id>http://chnghia.github.io/</id>
   <author>
     <name><![CDATA[Nghia Chung]]></name>
@@ -12,6 +12,53 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[cf-admin-proj]]></title>
+    <link href="http://chnghia.github.io/blog/2013/05/08/cf-admin-proj/"/>
+    <updated>2013-05-08T15:37:00+07:00</updated>
+    <id>http://chnghia.github.io/blog/2013/05/08/cf-admin-proj</id>
+    <content type="html"><![CDATA[<h3>Ý tưởng</h3>
+
+<p>Web GUI cho Cloudfoundry sử dụng NodeJS, Bootstrap</p>
+
+<!--more-->
+
+
+<h3>Chức năng chính</h3>
+
+<h3>Frameworks</h3>
+
+<ul>
+<li>NodeJS</li>
+<li>AngularJS</li>
+<li>Bootstrap</li>
+<li>MongoDB</li>
+<li>Cloudfoundry</li>
+</ul>
+
+
+<h3>Source code</h3>
+
+<p><a href="http://github.com/chnghia/cf-admin">http://github.com/chnghia/cf-admin</a></p>
+
+<h3>Contributing</h3>
+
+<p>Các bạn có thể dùng Github để Fork dự án này</p>
+
+<h3>License</h3>
+
+<p>(The MIT License)</p>
+
+<p>Copyright © 2013 Nghia Chung</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ‘Software’), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[web-ts-proj]]></title>
