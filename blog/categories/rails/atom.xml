@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: rails | chnghia's blog]]></title>
+  <link href="http://chnghia.github.io/blog/categories/rails/atom.xml" rel="self"/>
+  <link href="http://chnghia.github.io/"/>
+  <updated>2013-05-08T12:00:41+07:00</updated>
+  <id>http://chnghia.github.io/</id>
+  <author>
+    <name><![CDATA[Nghia Chung]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[web-ts-proj]]></title>
+    <link href="http://chnghia.github.io/blog/2013/05/08/web-ts-proj/"/>
+    <updated>2013-05-08T11:53:00+07:00</updated>
+    <id>http://chnghia.github.io/blog/2013/05/08/web-ts-proj</id>
+    <content type="html"><![CDATA[<h3>Ý tưởng</h3>
+
+<p>Dự án chấm công nền web, đọc dữ liệu trực tiếp từ thiết bị.</p>
+
+<!--more-->
+
+
+<p><img src="/images/post/2013-05-08-web-ts-screenshot.png" width="600"></p>
+
+<h3>Chức năng chính</h3>
+
+<ul>
+<li>Thu thập dữ liệu từ thiết bị chấm công</li>
+<li>Định nghĩa thông tin nhân viên, phòng ban, ngày tháng</li>
+<li>Báo cáo kết quả chấm công</li>
+</ul>
+
+
+<h3>Frameworks</h3>
+
+<ul>
+<li>Ruby: Rails</li>
+<li>MongoDB</li>
+</ul>
+
+
+<h3>Source code</h3>
+
+<p><a href="http://github.com/chnghia/web-ts">http://github.com/chnghia/web-ts</a></p>
+
+<h3>Contributing</h3>
+
+<p>Các bạn có thể dùng Github để Fork dự án này</p>
+
+<h3>License</h3>
+
+<p>(The MIT License)</p>
+
+<p>Copyright © 2013 Nghia Chung</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ‘Software’), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+]]></content>
+  </entry>
+  
+</feed>
